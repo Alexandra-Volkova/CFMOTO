@@ -63,11 +63,60 @@ header {
   margin-left: 50px;
 }
 
-
+/*INFO START*/
 .info {
-  height: 245px;
+  /*height: 245px;*/
   border: 1px solid;
+  padding: 47px 68px 27px 70px;
 }
+
+.info__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.info__item {
+  max-width: 302px;
+}
+
+.info__img-1 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 22px top 5px;
+  padding: 10px;
+}
+
+.info__img-2 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 26px top 3px;
+  padding: 10px;
+}
+
+.info__img-3 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 18px top 3px;
+  padding: 10px;
+}
+
+.info__img-4 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 25px top 10px;
+  padding: 10px;
+}
+
+.info__title {
+  font-family: 'Montserrat';
+  font-weight: 600, Semi Bold;
+  font-size: 18px;
+  color: #121214;
+  line-height: 19.57px;
+}
+
+/*INFO END*/
 
 main {
   height: 7546px;
