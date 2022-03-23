@@ -1,16 +1,16 @@
-header{
-    height: 918px;
-    border: 1px solid black;
+header {
+  height: 918px;
+  border: 1px solid black;
 }
-.info{
-    height: 245px;
-    border: 1px solid;
+.info {
+  height: 245px;
+  border: 1px solid;
 }
-main{
-    height: 7546px;
-    border: 1px solid;
+main {
+  height: 7546px;
+  border: 1px solid;
 }
-footer{
-    height: 704px;
-    border: 1px solid;
+footer {
+  height: 704px;
+  border: 1px solid;
 }
