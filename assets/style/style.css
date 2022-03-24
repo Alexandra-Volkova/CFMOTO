@@ -309,11 +309,12 @@ main {
 .feedback__spring {
   position: absolute;
   left: 0;
-  top: 35%;
+  top: 41%;
 }
 .feedback__container {
+  border: 2px solid red;
   height: 611px;
-  margin: auto 12%;
+  margin: 0 12%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 25% 75%;
@@ -366,6 +367,62 @@ main {
 .block__hide:checked + label + div {
   display: block;
   padding-top: 3%;
+}
+/*---------------------------Extra--------------------------------*/
+.extra__title {
+  margin: 0;
+  border: 2px solid blue;
+  grid-area: e-title;
+  text-align: center;
+}
+.photo {
+  background-color: #f4f4f4;
+  color: #037e8c;
+  height: 309px;
+  border: 2px solid blue;
+  border-radius: 9px;
+  margin: 3% auto;
+}
+.photo__img {
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+.photo-one {
+  grid-area: p-one;
+}
+.photo-two {
+  grid-area: p-two;
+}
+.photo-three {
+  grid-area: p-three;
+}
+.photo-four {
+  grid-area: p-four;
+}
+.photo-five {
+  grid-area: p-five;
+}
+.photo-six {
+  grid-area: p-six;
+}
+.photo-seven {
+  grid-area: p-seven;
+}
+.photo-eight {
+  grid-area: p-eight;
+}
+.extra-container {
+  height: 751px;
+  border: 2px solid red;
+  margin: 0 5% 5% 5%;
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 12% 1fr 1fr;
+  grid-template-areas:
+    "e-title e-title e-title e-title"
+    "p-one p-two p-three p-four"
+    "p-five p-six p-seven p-eight";
 }
 /*---------------------------Footer-------------------------------*/
 footer {
