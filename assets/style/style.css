@@ -1,39 +1,155 @@
 header {
   height: 918px;
   border: 1px solid black;
+  background-image: url(./background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav_logo {
+  margin-left: 70px;
+  margin-top: 12px;
+  height: 142px;
+  width: 111px;
+}
+
+.header__nav_menu {
+  display: flex;
+  height: 15px;
+  width: 702px;
+  justify-content: space-between;
+  margin-top: 39px;
+  margin-left: 250px;
+}
+
+.header__nav_menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+#blue {
+  color: #037e8c;
+}
+
+.header__nav_callme {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: 74px;
+}
+
+.header__tel {
+  letter-spacing: 10px;
+}
+
+.header__form {
+  width: 180px;
+  height: 40px;
+  margin-top: 11px;
+  position: absolute;
+  margin-left: 28px;
+}
+
+.header__call {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+/*INFO START*/
 .info {
-  height: 245px;
+  /*height: 245px;*/
   border: 1px solid;
+  padding: 47px 68px 27px 70px;
 }
+
+.info__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.info__item {
+  max-width: 302px;
+}
+
+.info__img-1 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 22px top 5px;
+  padding: 10px;
+}
+
+.info__img-2 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 26px top 3px;
+  padding: 10px;
+}
+
+.info__img-3 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 18px top 3px;
+  padding: 10px;
+}
+
+.info__img-4 {
+  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-repeat: no-repeat;
+  background-position: left 25px top 10px;
+  padding: 10px;
+}
+
+.info__title {
+  font-family: "Montserrat";
+  font-weight: 600, Semi Bold;
+  font-size: 18px;
+  color: #121214;
+  line-height: 19.57px;
+}
+
+/*INFO END*/
+
 main {
   height: 7546px;
   border: 1px solid;
 }
+
 footer {
   height: 704px;
   border: 1px solid;
 }
+
 .contacts__title {
   border: 1px solid blue;
   grid-area: title;
 }
+
 .adress {
   border: 1px solid blue;
   grid-area: adress;
 }
+
 .number {
   border: 1px solid blue;
   grid-area: number;
 }
+
 .email {
   border: 1px solid blue;
   grid-area: email;
 }
+
 .hours {
   border: 1px solid blue;
   grid-area: hours;
 }
+
 .contacts {
   border: 1px solid red;
   grid-area: contacts;
@@ -45,15 +161,29 @@ footer {
     "adress number"
     "email hours";
 }
+.connect {
+  border: 2px solid black;
+  display: flex;
+  align-items: flex-start;
+}
+.connect__title {
+  margin: 1vh auto auto 1vh;
+  border: 2px solid blue;
+}
+.connect__img {
+  border: 2px solid red;
+}
 .map {
   border: 1px solid red;
   grid-area: map;
   justify-self: flex-end;
 }
+
 .social {
   border: 1px solid red;
   grid-area: social;
 }
+
 .bottom {
   margin-right: 2vw;
   border: 1px solid red;
@@ -62,21 +192,34 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
 .bottom__logo {
+  margin-left: 5vw;
   border: 1px solid blue;
 }
+
 .nav {
   border: 1px solid blue;
   width: 70vw;
   display: flex;
   justify-content: space-between;
 }
+.nav__link {
+  color: #121214;
+  text-decoration: none;
+}
+.nav__link:hover {
+  text-decoration: underline;
+}
+
 .copyrights {
+  color: #787878;
   border: 1px solid red;
   grid-area: copyrights;
   justify-self: center;
   align-self: center;
 }
+
 .footer__container {
   margin-left: 2vw;
   height: 704px;
