@@ -251,7 +251,77 @@ main {
 }
 
 /*ROUTS END*/
+/*--------------------------Questions-----------------------------*/
+.feedback {
+  position: relative;
+}
+.feedback__quad {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+.feedback__spring {
+  position: absolute;
+  left: 0;
+  top: 35%;
+}
+.feedback__container {
+  height: 611px;
+  margin: auto 12%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 25% 75%;
+  grid-template-areas:
+    "f-title f-title"
+    "questions ask";
+}
 
+.feedback__title {
+  grid-area: f-title;
+  text-align: center;
+  align-self: center;
+}
+.ask {
+  text-align: center;
+  grid-area: ask;
+}
+.ask__title {
+  font-weight: 600;
+  font-size: 1.6em;
+}
+.ask__button {
+  margin-top: 5%;
+  width: 34%;
+  height: 10%;
+  background: #037e8c;
+  color: #ffffff;
+  border-radius: 9px;
+  border: none;
+}
+.questions {
+  grid-area: questions;
+}
+.block {
+  padding: 5%;
+  margin-top: 1.5%;
+  border: 0.5px solid #848484;
+  border-radius: 2px;
+}
+.block__label {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.block__hide {
+  display: none;
+}
+.block__hide + label ~ div {
+  display: none;
+}
+.block__hide:checked + label + div {
+  display: block;
+  padding-top: 3%;
+}
+/*---------------------------Footer-------------------------------*/
 footer {
   height: 704px;
   border: 1px solid;
@@ -289,7 +359,9 @@ footer {
     "adress number"
     "email hours";
 }
-.contacts__title {
+.contacts__title,
+.feedback__title,
+.extra__title {
   font-weight: 700;
   font-size: 2.5em;
 }
