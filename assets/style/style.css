@@ -292,6 +292,11 @@ footer {
     "adress number"
     "email hours";
 }
+.contacts__title {
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
 .connect {
   border: 2px solid black;
   display: flex;
@@ -300,6 +305,7 @@ footer {
 .connect__title {
   margin: 1vh auto auto 1vh;
   border: 2px solid blue;
+  font-size: 1.3em;
 }
 .connect__img {
   border: 2px solid red;
@@ -314,7 +320,10 @@ footer {
   border: 1px solid red;
   grid-area: social;
 }
-
+.social__title {
+  font-size: 24px;
+  line-height: 36.28px;
+}
 .bottom {
   margin-right: 2vw;
   border: 1px solid red;
@@ -332,6 +341,7 @@ footer {
 .nav {
   border: 1px solid blue;
   width: 70vw;
+  font-weight: 600;
   display: flex;
   justify-content: space-between;
 }
@@ -344,6 +354,7 @@ footer {
 }
 
 .copyrights {
+  font-size: 1.1em;
   color: #787878;
   border: 1px solid red;
   grid-area: copyrights;
