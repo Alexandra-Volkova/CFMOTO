@@ -1,3 +1,12 @@
+body {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #121214;
+}
+
+
 header {
   height: 918px;
   border: 1px solid black;
@@ -78,28 +87,28 @@ header {
 }
 
 .info__img-1 {
-  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-image: url(/assets/images/info/i-circle.svg);
   background-repeat: no-repeat;
   background-position: left 22px top 5px;
   padding: 10px;
 }
 
 .info__img-2 {
-  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-image: url(/assets/images/info/i-circle.svg);
   background-repeat: no-repeat;
   background-position: left 26px top 3px;
   padding: 10px;
 }
 
 .info__img-3 {
-  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-image: url(/assets/images/info/i-circle.svg);
   background-repeat: no-repeat;
   background-position: left 18px top 3px;
   padding: 10px;
 }
 
 .info__img-4 {
-  background-image: url(/CFMOTO/assets/images/info/i-circle.svg);
+  background-image: url(/assets/images/info/i-circle.svg);
   background-repeat: no-repeat;
   background-position: left 25px top 10px;
   padding: 10px;
@@ -120,6 +129,125 @@ main {
   border: 1px solid;
 }
 
+/*ROUTS START*/
+.routs {
+  background: #F4F4F4;
+}
+
+.routs__title {
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  margin: 0;
+  padding: 57px 0 42px;
+}
+
+.route__title-2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 108.7%;
+}
+
+.route__price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 108.7%;
+}
+
+.route__price::after {
+  content: url(/assets/images/routs/i-price.svg);
+  margin-left: 12px;
+}
+
+.route__time,
+.route__distance,
+.route__complexity {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 108.7%;
+  text-transform: uppercase;
+}
+
+.route__time>span,
+.route__distance>span,
+.route__complexity>span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17.39px;
+  text-transform: lowercase;
+}
+
+.route__time::before {
+  content: url(/assets/images/routs/i-time.svg);
+  margin-right: 17px;
+}
+
+.route__distance::before {
+  content: url(/assets/images/routs/i-location.svg);
+  margin-right: 17px;
+}
+
+.route__complexity::before {
+  content: url(/assets/images/routs/i-star.svg);
+  margin-right: 17px;
+}
+
+.route__description-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+.route__description-title::after {
+  content: url(/assets/images/routs/i-rout.svg);
+  margin-left: 20px;
+}
+
+.route__description-text {
+  max-width: 524px;
+  line-height: 160%;
+  margin-bottom: 39px;
+}
+
+.btn-details,
+.btn-reserve {
+  width: 175px;
+  height: 45px;
+}
+
+.btn-details {
+  background: none;
+  border: 1.5px solid #037E8C;
+  box-sizing: border-box;
+  border-radius: 9px;
+  margin-right: 15px;
+}
+
+.btn-details a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #037E8C;
+}
+
+.btn-reserve {
+  background: #037E8C;
+  border-radius: 9px;
+  border: none;
+}
+
+.btn-reserve a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+/*ROUTS END*/
 footer {
   height: 704px;
   border: 1px solid;
