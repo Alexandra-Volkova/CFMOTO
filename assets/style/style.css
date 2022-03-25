@@ -330,14 +330,16 @@ main {
 .ask {
   text-align: center;
   grid-area: ask;
+  justify-self: right;
 }
+
 .ask__title {
   font-weight: 600;
   font-size: 1.6em;
 }
 .ask__button {
   margin-top: 5%;
-  width: 34%;
+  width: 45%;
   height: 10%;
   background: #037e8c;
   color: #ffffff;
@@ -347,8 +349,11 @@ main {
 .questions {
   grid-area: questions;
 }
+.answer {
+  line-height: 21px;
+}
 .block {
-  padding: 5%;
+  padding: 4%;
   margin-top: 1.5%;
   border: 0.5px solid #848484;
   border-radius: 2px;
