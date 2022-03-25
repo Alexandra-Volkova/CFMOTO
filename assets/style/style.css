@@ -218,9 +218,9 @@ main {
   text-transform: uppercase;
 }
 
-.route__time>span,
-.route__distance>span,
-.route__complexity>span {
+.route__time > span,
+.route__distance > span,
+.route__complexity > span {
   font-weight: bold;
   font-size: 14px;
   line-height: 17.39px;
@@ -344,14 +344,12 @@ main {
 .main__cards {
   display: flex;
   margin-left: 55px;
-
 }
 
 .item_container {
   display: flex;
   position: relative;
   top: -315px;
-
 }
 
 .bantdom {
@@ -459,11 +457,11 @@ main {
   display: none;
 }
 
-.block__hide+.block__label~.answer {
+.block__hide + .block__label ~ .answer {
   display: none;
 }
 
-.block__hide:checked+.block__label+.answer {
+.block__hide:checked + .block__label + .answer {
   display: block;
   padding-top: 3%;
 }
