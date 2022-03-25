@@ -309,10 +309,9 @@ main {
 .feedback__spring {
   position: absolute;
   left: 0;
-  top: 41%;
+  top: 38%;
 }
 .feedback__container {
-  border: 2px solid red;
   height: 611px;
   margin: 0 12%;
   display: grid;
@@ -357,31 +356,43 @@ main {
 .block__label {
   font-weight: 600;
   font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+}
+.block:hover {
+  border: 1px solid #037e8c;
 }
 .block__hide {
   display: none;
 }
-.block__hide + label ~ div {
+.block__hide + .block__label ~ .answer {
   display: none;
 }
-.block__hide:checked + label + div {
+.block__hide:checked + .block__label + .answer {
   display: block;
   padding-top: 3%;
 }
 /*---------------------------Extra--------------------------------*/
 .extra__title {
   margin: 0;
-  border: 2px solid blue;
   grid-area: e-title;
   text-align: center;
 }
 .photo {
   background-color: #f4f4f4;
-  color: #037e8c;
   height: 309px;
-  border: 2px solid blue;
   border-radius: 9px;
   margin: 3% auto;
+}
+.photo__title {
+  margin-left: 8%;
+  margin-top: 7%;
+}
+.photo__link {
+  font-weight: 600;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #037e8c;
 }
 .photo__img {
   border-top-right-radius: 9px;
@@ -413,8 +424,8 @@ main {
 }
 .extra-container {
   height: 751px;
-  border: 2px solid red;
-  margin: 0 5% 5% 5%;
+  margin: 0 5%;
+  padding-bottom: 5%;
   display: grid;
 
   grid-template-columns: repeat(4, 1fr);
