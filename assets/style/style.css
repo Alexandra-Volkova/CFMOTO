@@ -300,6 +300,83 @@ main {
 
 /*ROUTS END*/
 
+.main__offer {
+  margin-top: 100px;
+  background-image: url(./багги\ 2.svg);
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+
+.main__offer_text {
+  display: flex;
+  font-size: 36px;
+  font-weight: 700;
+  color: #373737;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__cards {
+  display: flex;
+  margin-left: 55px;
+
+}
+
+.item_container {
+  display: flex;
+  position: relative;
+  top: -315px;
+
+}
+
+.bantdom {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card-title {
+  color: #037e8c;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.card-title2 {
+  color: #037e8c;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text {
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.card-title3 {
+  margin-top: 20px;
+  color: #373737;
+  font-size: 18px;
+}
+
+.main__offer_button {
+  margin-top: 20px;
+}
+
+.main__offer_buttonword {
+  margin-left: -135px;
+  margin-bottom: 13px;
+}
+
+.item_picture {
+  position: relative;
+  top: -20px;
+  left: 13px;
+}
+
+.item_picture2 {
+  position: relative;
+  top: -80px;
+  left: 13px;
+}
+
 footer {
   height: 704px;
   border: 1px solid;
