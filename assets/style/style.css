@@ -343,6 +343,7 @@ main {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /*routs sliders*/
 
 .basic,
@@ -413,6 +414,141 @@ main {
   background: #037E8C;
 }
 
+=======
+/*Slider*/
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+  border-radius: 30px;
+  border: 8px #000000;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -15px 0 0 0;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url(../images/slider/002.png) 0 /100% no-repeat;
+  border: 0px;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url(../images/slider/001.png) 0 /100% no-repeat;
+  border: 0px;
+}
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.slider .slick-dots button {
+  font-size: 0px;
+  width: 8px;
+  height: 8px;
+  background: #121214;
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+.slider .slick-dots li.slick-active button {
+  background: #037E8C;
+}
+
+/*Team*/
+.team {
+  margin-top: 50px;
+}
+
+.team-title {
+  margin: 0 auto;
+  grid-area: t-title;
+  font-size: 36px;
+  text-align: center;
+}
+
+.t_photo {
+  background-color: #f4f4f4;
+  height: 409px;
+  border-radius: 9px;
+}
+
+.t_photo__title {
+  margin-top: 10px;
+}
+
+.t_photo__link {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 5%;
+  text-decoration: none;
+  color: #037e8c;
+}
+
+.t_photo__img {
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.function_team {
+  font-weight: 400px;
+  font-size: 18px;
+  margin-top: 0;
+  margin-left: 5%;
+}
+
+.photo-Yl {
+  grid-area: p-Yl;
+}
+
+.photo-Kr {
+  grid-area: p-Kr;
+}
+
+.photo-Mx {
+  grid-area: p-Mx;
+}
+
+.photo-Yr {
+  grid-area: p-Yr;
+}
+
+.team-container {
+  height: 400px;
+  display: grid;
+  margin: auto 0.5px;
+  grid-template-columns: repeat(4px 1fr);
+  grid-template-rows: 15% 5%;
+  grid-template-areas: "t-title t-title t-title t-title"
+    "p-Yl p-Mx p-Kr p-Yr";
+}
+>>>>>>> eda0b4f5736ca62190f151417df69fe2141a9a7f
 
 /*ROUTS END*/
 /*--------------------------Questions-----------------------------*/
@@ -441,6 +577,81 @@ main {
   grid-template-areas:
     "f-title f-title"
     "questions ask";
+}
+
+.main__offer {
+  margin-top: 100px;
+  background-image: url(./багги\ 2.svg);
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+
+.main__offer_text {
+  display: flex;
+  font-size: 36px;
+  font-weight: 700;
+  color: #373737;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__cards {
+  display: flex;
+  margin-left: 55px;
+}
+
+.item_container {
+  display: flex;
+  position: relative;
+  top: -315px;
+}
+
+.bantdom {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card-title {
+  color: #037e8c;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.card-title2 {
+  color: #037e8c;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text {
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.card-title3 {
+  margin-top: 20px;
+  color: #373737;
+  font-size: 18px;
+}
+
+.main__offer_button {
+  margin-top: 20px;
+}
+
+.main__offer_buttonword {
+  margin-left: -135px;
+  margin-bottom: 13px;
+}
+
+.item_picture {
+  position: relative;
+  top: -12px;
+  left: 13px;
+}
+
+.item_picture2 {
+  position: relative;
+  top: -74px;
+  left: 13px;
 }
 
 .feedback__title {
@@ -479,7 +690,7 @@ main {
 }
 
 .block {
-  padding: 4%;
+  padding: 3%;
   margin-top: 1.5%;
   border: 0.5px solid #848484;
   border-radius: 2px;
