@@ -298,12 +298,11 @@ main {
 
 /*Team*/
 .team {
-  margin: 45px;
-  text-align: center;
+  margin-top: 50px;
 }
 
 .team-title {
-  margin: 0;
+  margin: 0 auto;
   grid-area: t-title;
   font-size: 36px;
   text-align: center;
@@ -317,12 +316,12 @@ main {
 
 .t_photo__title {
   margin-top: 10px;
-  margin-right: 150px;
 }
 
 .t_photo__link {
   font-weight: 700;
   font-size: 24px;
+  margin-left: 5%;
   text-decoration: none;
   color: #037e8c;
 }
@@ -335,7 +334,8 @@ main {
 .function_team {
   font-weight: 400px;
   font-size: 18px;
-  margin: 0 5%;
+  margin-top: 0;
+  margin-left: 5%;
 }
 
 .photo-Yl {
@@ -355,15 +355,12 @@ main {
 }
 
 .team-container {
-  height: 515px;
-  margin: 0 5%;
-  padding-bottom: 1%;
+  height: 400px;
   display: grid;
-
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 12% 1fr 1fr;
-  grid-template-areas:
-    "t-title t-title t-title t-title"
+  margin: auto 0.5px;
+  grid-template-columns: repeat(4px 1fr);
+  grid-template-rows: 15% 5%;
+  grid-template-areas: "t-title t-title t-title t-title"
     "p-Yl p-Mx p-Kr p-Yr";
 }
 
