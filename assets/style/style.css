@@ -119,14 +119,13 @@ body {
 /*INFO START*/
 .info {
   /*height: 245px;*/
-  border: 1px solid;
   padding: 47px 68px 27px 70px;
 }
 
 .info__items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 10%;
 }
 
 .info__item {
