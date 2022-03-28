@@ -1,9 +1,7 @@
-.global-container {
-  max-width: 1440px;
-  margin: auto;
-}
-
 body {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -375,7 +373,6 @@ main {
   object-fit: cover;
 }
 
-
 .swiper-pagination,
 .swiper-pagination--2 {
   position: inherit;
@@ -388,16 +385,15 @@ main {
 }
 
 .swiper-pagination::after {
-  content: 'scroll';
-  font-family: 'poppins';
+  content: "scroll";
+  font-family: "poppins";
   margin-left: 50px;
 }
 
 .swiper-pagination--2::after {
-  content: 'scroll';
-  font-family: 'poppins';
+  content: "scroll";
+  font-family: "poppins";
   margin-left: 50px;
-
 }
 
 .swiper-pagination-bullet {
@@ -405,9 +401,8 @@ main {
 }
 
 .swiper-pagination-bullet-active {
-  background: #037E8C;
+  background: #037e8c;
 }
-
 
 /*Team*/
 .team {
@@ -589,8 +584,7 @@ main {
 .main__sertificate {
   margin-top: -330px;
   height: 610px;
-  background-image: url(./unsplash_Bkci_8qcdvQ\ \(Traced\).svg);
-
+  background-image: url(./unsplash_Bkci_8qcdvQ\\Traced\.svg);
 }
 
 .main__sertificate_title {
@@ -614,11 +608,9 @@ main {
   padding-top: 40px;
   margin-top: 20px;
   justify-content: space-around;
-
 }
 
 .main__blocktext {
-
   height: 312px;
   width: 636px;
 }
@@ -744,9 +736,9 @@ main {
   display: none;
 }
 
-.block__hide:checked+.block__label+.answer {
+.block:hover .answer {
   display: block;
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 /*---------------------------Extra--------------------------------*/
@@ -776,6 +768,7 @@ main {
 }
 
 .photo__img {
+  max-width: 100%;
   border-top-right-radius: 9px;
   border-top-left-radius: 9px;
 }
@@ -885,6 +878,10 @@ footer {
 .map {
   grid-area: map;
   justify-self: flex-end;
+}
+
+.map__img {
+  max-width: 100%;
 }
 
 .social {
