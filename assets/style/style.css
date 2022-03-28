@@ -218,9 +218,9 @@ main {
   text-transform: uppercase;
 }
 
-.route__time > span,
-.route__distance > span,
-.route__complexity > span {
+.route__time>span,
+.route__distance>span,
+.route__complexity>span {
   font-weight: bold;
   font-size: 14px;
   line-height: 17.39px;
@@ -379,6 +379,10 @@ main {
   font-size: 18px;
 }
 
+.main__offer {
+  height: 500px;
+}
+
 .main__offer_button {
   margin-top: 20px;
 }
@@ -398,6 +402,103 @@ main {
   position: relative;
   top: -74px;
   left: 13px;
+}
+
+.main__sertificate {
+  margin-top: -330px;
+  height: 610px;
+  background-image: url(./unsplash_Bkci_8qcdvQ\ \(Traced\).svg);
+
+}
+
+.main__sertificate_title {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.main__sertificate_title2 {
+  color: #037e8c;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  font-size: medium;
+}
+
+.main__sertificate_container {
+  display: flex;
+  height: 312px;
+  padding-top: 40px;
+  margin-top: 20px;
+  justify-content: space-around;
+
+}
+
+.main__blocktext {
+
+  height: 312px;
+  width: 636px;
+}
+
+.main__card {
+  height: 312px;
+  width: 636px;
+  background-color: #373737;
+  border-radius: 10px;
+}
+
+.main__card_blot {
+  position: relative;
+  left: 332px;
+  top: -8px;
+  border-radius: 10px;
+}
+
+.main__card_bant {
+  position: relative;
+  margin-top: -170px;
+  margin-left: 20px;
+}
+
+.main__card_sert {
+  position: relative;
+  top: -280px;
+  left: 190px;
+}
+
+.main__card_logo {
+  position: relative;
+  top: -260px;
+  left: 450px;
+}
+
+.main__card_text1 {
+  position: relative;
+  top: -360px;
+  left: 130px;
+}
+
+.main__card_text2 {
+  position: relative;
+  top: -320px;
+  left: 130px;
+}
+
+.main__textcard {
+  padding: 40px 0px 0px 40px;
+}
+
+.main__input {
+  position: relative;
+  top: 35px;
+  left: 40px;
+}
+
+.main__input2 {
+  position: relative;
+  left: -220px;
+  top: 20px;
 }
 
 .feedback__title {
@@ -457,11 +558,11 @@ main {
   display: none;
 }
 
-.block__hide + .block__label ~ .answer {
+.block__hide+.block__label~.answer {
   display: none;
 }
 
-.block__hide:checked + .block__label + .answer {
+.block__hide:checked+.block__label+.answer {
   display: block;
   padding-top: 3%;
 }
