@@ -109,19 +109,20 @@ body {
 }
 
 .header__bluebutton {
+  display: flex;
   background: #037e8c;
   border-radius: 9px;
   border: none;
   width: 274px;
   height: 55px;
   margin-top: 3em;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
   color: #ffffff;
-
 }
 
 /*-------------------main------------------*/
