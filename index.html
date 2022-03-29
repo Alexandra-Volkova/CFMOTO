@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="/assets/style/normalizer.css" />
   <link rel="stylesheet" href="./assets/style/style.css" />
-  <link rel="stylesheet" href="./assets/images/sasha/фото.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
@@ -17,44 +16,35 @@
 </head>
 
 <body>
-
+ 
   <header class="header">
-    <div class="header__nav">
-      <div class="header__nav_logo"><img src="./assets/images/sasha/лого.svg" alt="logo"></div>
-      <div class="header__nav_menu">
-        <a href="#">МАРШРУТЫ</a>
-        <a href="#">ГАЛЕРЕЯ</a>
-        <a href="#">ВОПРОС-ОТВЕТ</a>
-        <a href="#">КОНТАКТЫ</a>
-        <a id="blue" href="#">ЗАБРОНИРОВАТЬ</a>
+    <div class="wrapper">
+    <div class="header__row">
+      <a class="header__logo"><img src="./assets/images/sasha/лого.svg" alt="logo"></a>
+      <nav class="header__menu">
+        <div class="header__list">
+          <a href="#">МАРШРУТЫ</a>
+          <a href="#">ГАЛЕРЕЯ</a>
+          <a href="#">ВОПРОС-ОТВЕТ</a>
+          <a href="#">КОНТАКТЫ</a>
+          <a id="blue" href="#">ЗАБРОНИРОВАТЬ</a>
       </div>
-      <div class="header__nav_callme">
-        <div class="header__tel">
-          <a><img src="./assets/images/sasha/Vector.svg"></a>
-          <a><img src="./assets/images/sasha/+7 928 333 26 45.svg"></a>
-        </div>
-        <div class="header__nav_button">
-          <input class="header__form" type="image" src="./assets/images/sasha/Rectangle 4.svg" alt="#">
-          <img class="header__call" src="./assets/images/sasha/Перезвоните мне.svg"></input>
-        </div>
-      </div>
+      </nav>
+      <div class="header__phone">
+        <span><img src="./assets/images/sasha/phone.svg" alt="phone">+7 928 333 26 45</span>
+        <button class="header__button">Перезвоните мне</button>
     </div>
-
-    <div class="header__bigtext">
-      <p>Экскурсии на
-        квадроциклах
-        в Геленджике</p>
+  </div>
+    <div class="header__title">
+      <h1>Экскурсии на 
+        квадроциклах⠀⠀⠀⠀ 
+        в Геленджике</h1>
+      <h3>приезжайте за новыми ощущениями и эмоциями!</h3>
+      <span><button class="header__bluebutton">Подобрать маршрут <img src="./assets/images/sasha/стрелка.png" alt="strl"></button></span>
     </div>
-    <div class="header__smalltext">
-      <p>приезжайте за новыми ощущениями и эмоциями!</p>
-    </div>
-    <div class="header__bluebutton">
-      <input class="header__bluebutton_items" type="image" src="./assets/images/sasha/Rectangle 2.svg" alt="#">
-      <img class="header__route" src="./assets/images/sasha/Подобрать маршрут.svg">
-      <img class="header__cursor" src="./assets/images/sasha/стрелка.png">
-      </input>
-    </div>
+  </div>
   </header>
+
 
   <!--info section start-->
   <div class="info">
