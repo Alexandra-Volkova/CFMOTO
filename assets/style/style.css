@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   width: 100%;
-  margin: 0px auto;
+  margin: 0 auto;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -120,7 +120,7 @@ body {
 }
 
 .sale {
-  height: 40vh;
+  height: 500px;
   background-image: url(../images/sasha/багги\ 2.png),
     url(../images/sasha/деталька\ 1.png);
   background-repeat: no-repeat, no-repeat;
@@ -141,6 +141,13 @@ body {
   justify-content: space-evenly;
 }
 
+.card-item {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
 .sertificate {
   background-image: url(../images/sasha/Frame\ 14.png);
   height: 613px;
@@ -154,8 +161,10 @@ body {
 
 .sertificate__items {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  max-width: 100%;
   padding-top: 40px;
+  margin: 0 auto;
 }
 
 .sertificate__text {
@@ -163,6 +172,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+
 
 .sertificate__button {
   display: flex;
@@ -328,9 +338,9 @@ main {
   text-transform: uppercase;
 }
 
-.routes__time > span,
-.routes__distance > span,
-.routes__complexity > span {
+.routes__time>span,
+.routes__distance>span,
+.routes__complexity>span {
   font-weight: bold;
   font-size: 14px;
   line-height: 17.39px;
@@ -569,7 +579,7 @@ main {
   display: none;
 }
 
-.block__hide + .block__label ~ .answer {
+.block__hide+.block__label~.answer {
   display: none;
 }
 
