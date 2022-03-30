@@ -452,15 +452,14 @@ body {
   position: absolute;
   width: 30%;
   right: 0;
-  bottom: 7%;
+  bottom: 30%;
 }
 
 .backg_left {
   position: absolute;
   width: 30%;
-  z-index: -1;
   left: 0;
-  top: 10%;
+  top: 25%;
 }
 
 .team-title {
