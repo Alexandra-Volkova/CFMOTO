@@ -337,9 +337,9 @@ body {
   text-transform: uppercase;
 }
 
-.routes__time>span,
-.routes__distance>span,
-.routes__complexity>span {
+.routes__time > span,
+.routes__distance > span,
+.routes__complexity > span {
   font-weight: bold;
   font-size: 14px;
   line-height: 17.39px;
@@ -424,9 +424,9 @@ body {
   align-items: center;
   max-width: 100%;
   height: 594px;
-  background: no-repeat url(/CFMOTO/assets/images/services/unsplash_dvACrXUExLs.png);
+  background: no-repeat
+    url(/CFMOTO/assets/images/services/unsplash_dvACrXUExLs.png);
   background-size: 100%;
-
 }
 
 .pic_video {
@@ -445,7 +445,6 @@ body {
   display: flex;
   justify-content: space-around;
   height: 510px;
-
 }
 
 .backg_right {
@@ -480,7 +479,7 @@ body {
 
 .services {
   padding: 1%;
-  background-image: url(/CFMOTO/assets/images/video/фон.png)
+  background-image: url(/CFMOTO/assets/images/video/фон.png);
 }
 
 .s_title {
@@ -624,7 +623,7 @@ body {
   display: none;
 }
 
-.block__hide+.block__label~.answer {
+.block__hide + .block__label ~ .answer {
   display: none;
 }
 
@@ -827,7 +826,7 @@ body {
 }
 
 .copyrights {
-  padding-bottom: 1%;
+  padding: 1%;
   align-self: center;
   text-align: center;
   font-size: 1.1em;
@@ -967,7 +966,7 @@ body {
   .footer__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto 15% 9%;
+    grid-template-rows: auto;
     grid-template-areas:
       "title map"
       "contacts map"
@@ -1132,18 +1131,20 @@ body {
   }
 
   .social__img {
-    width: 70%;
+    width: 60%;
     margin-left: 15%;
   }
 
   .bottom__logo {
-    margin-left: 5%;
+    align-self: flex-start;
+    height: 70%;
+    margin-left: 0;
   }
 
   .bottom {
     margin: 0;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     grid-area: bottom;
     display: flex;
     justify-content: space-between;
@@ -1151,7 +1152,7 @@ body {
   }
 
   .nav {
-    width: 40%;
+    width: 50%;
     height: 100%;
 
     font-weight: 600;
@@ -1167,19 +1168,13 @@ body {
     margin: 3% 0;
     justify-self: center;
   }
-
-  .copyrights {
-    padding: 1%;
-    font-size: 0.4em;
-  }
-
   .footer__container {
     margin: 0 2%;
     border-top: 3px solid #037e8c;
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto auto 20% auto;
     grid-template-areas:
       "title"
       "map"
