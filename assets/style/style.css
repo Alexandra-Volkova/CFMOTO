@@ -177,7 +177,6 @@ body {
   justify-content: space-around;
 }
 
-
 .sertificate__button {
   display: flex;
   background: none;
@@ -250,10 +249,6 @@ body {
 }
 
 /*INFO END*/
-
-main {
-  height: 7546px;
-}
 
 /*ROUTS START*/
 .routes {
@@ -342,9 +337,9 @@ main {
   text-transform: uppercase;
 }
 
-.routes__time>span,
-.routes__distance>span,
-.routes__complexity>span {
+.routes__time > span,
+.routes__distance > span,
+.routes__complexity > span {
   font-weight: bold;
   font-size: 14px;
   line-height: 17.39px;
@@ -583,7 +578,7 @@ main {
   display: none;
 }
 
-.block__hide+.block__label~.answer {
+.block__hide + .block__label ~ .answer {
   display: none;
 }
 
@@ -786,6 +781,7 @@ main {
 }
 
 .copyrights {
+  padding-bottom: 1%;
   align-self: center;
   text-align: center;
   font-size: 1.1em;
@@ -805,8 +801,8 @@ main {
     "bottom bottom"
     "copyrights copyrights";
 }
-
-/*------Adaptive -----*/
+/*---------------------------------------------------------------------------------*/
+/*-------------------------------------Adaptive -----------------------------------*/
 @media screen and (max-width: 1100px) {
   .btn-details {
     margin-bottom: 5%;
@@ -1060,13 +1056,13 @@ main {
     font-size: 1.3em;
   }
 
-  .connect__title {
-    font-size: 1.1em;
+  .connect__img {
+    width: 5vw;
+    height: 5vw;
   }
 
-  .connect__img {
-    width: 8vw;
-    height: 8vw;
+  .connect__title {
+    font-size: 1.1em;
   }
 
   .footer-title {
@@ -1092,7 +1088,9 @@ main {
     width: 70%;
     margin-left: 15%;
   }
-
+  .bottom__logo {
+    margin-left: 5%;
+  }
   .bottom {
     margin: 0;
     padding-top: 2%;
@@ -1104,7 +1102,7 @@ main {
   }
 
   .nav {
-    width: 50%;
+    width: 40%;
     height: 100%;
 
     font-weight: 600;
@@ -1118,15 +1116,19 @@ main {
 
   .map {
     margin: 3% 0;
+    justify-self: center;
   }
-
+  .copyrights {
+    padding: 1%;
+    font-size: 0.4em;
+  }
   .footer__container {
     margin: 0 2%;
     border-top: 3px solid #037e8c;
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto 15% 9%;
+    grid-template-rows: auto;
     grid-template-areas:
       "title"
       "map"
