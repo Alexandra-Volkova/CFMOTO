@@ -173,7 +173,6 @@ body {
   justify-content: space-around;
 }
 
-
 .sertificate__button {
   display: flex;
   background: none;
@@ -246,10 +245,6 @@ body {
 }
 
 /*INFO END*/
-
-main {
-  height: 7546px;
-}
 
 /*ROUTS START*/
 .routes {
@@ -338,9 +333,9 @@ main {
   text-transform: uppercase;
 }
 
-.routes__time>span,
-.routes__distance>span,
-.routes__complexity>span {
+.routes__time > span,
+.routes__distance > span,
+.routes__complexity > span {
   font-weight: bold;
   font-size: 14px;
   line-height: 17.39px;
@@ -579,7 +574,7 @@ main {
   display: none;
 }
 
-.block__hide+.block__label~.answer {
+.block__hide + .block__label ~ .answer {
   display: none;
 }
 
