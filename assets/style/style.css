@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   width: 100%;
-  margin: 0px auto;
+  margin: 0 auto;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -60,6 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   color: #ffffff;
+  max-width: 100%;
 }
 
 .phone {
@@ -277,10 +278,6 @@ body {
 
 /*INFO END*/
 
-main {
-  height: 7546px;
-}
-
 /*ROUTS START*/
 .routes {
   background: #f4f4f4;
@@ -448,79 +445,191 @@ main {
 
 /*ROUTS END*/
 
-/*Team*/
-.team {
-  margin-top: 50px;
+/*Test*/
+.test {
+  min-height: 100%;
+  background: no-repeat url(/assets/images/test/Mask\ Group.png);
+  background-size: 100%;
 }
 
-.team-title {
+.test_container {
+  max-width: 100%;
   margin: 0 auto;
-  grid-area: t-title;
-  font-size: 36px;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-.t_photo {
-  background-color: #f4f4f4;
-  height: 409px;
-  border-radius: 9px;
+.test-title {
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 130%;
+  color: white;
 }
 
-.t_photo__title {
-  margin-top: 10px;
-}
-
-.t_photo__link {
-  font-weight: 700;
-  font-size: 24px;
-  margin-left: 5%;
-  text-decoration: none;
-  color: #037e8c;
-}
-
-.t_photo__img {
-  border-top-right-radius: 9px;
-  border-top-left-radius: 9px;
-}
-
-.function_team {
-  font-weight: 400px;
+.test_text1 {
+  font-weight: 500;
   font-size: 18px;
-  margin-top: 0;
-  margin-left: 5%;
+  line-height: 130%;
+  color: white;
 }
 
-.photo-Yl {
-  grid-area: p-Yl;
+.test_btn {
+  margin-bottom: 8%;
+  padding: 5%;
 }
 
-.photo-Kr {
-  grid-area: p-Kr;
+.btn-test {
+  background: #037e8c;
+  color: #ffffff;
+  border-radius: 9px;
+  border: none;
+  height: 4em;
+  width: 30%;
 }
 
-.photo-Mx {
-  grid-area: p-Mx;
+/*Photo*/
+
+.Photo-title {
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  margin: 0;
+  padding: 4%;
 }
 
-.photo-Yr {
-  grid-area: p-Yr;
+.photo_container {
+  height: 100%;
+  max-width: 100%;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo_slider {
+  height: 100%;
+  width: 100%;
+}
+
+/*video*/
+
+.video_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+  background: no-repeat url(/assets/images/services/unsplash_dvACrXUExLs.png);
+  background-size: 100%;
+}
+
+.pic_video {
+  max-width: 100%;
+  margin: 5%;
+}
+
+/*Team*/
+.team {
+  position: relative;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
 }
 
 .team-container {
-  height: 400px;
-  display: grid;
-  margin: auto 0.5px;
-  grid-template-columns: repeat(4px 1fr);
-  grid-template-rows: 15% 5%;
-  grid-template-areas:
-    "t-title t-title t-title t-title"
-    "p-Yl p-Mx p-Kr p-Yr";
+  display: flex;
+  justify-content: space-around;
+  height: 510px;
 }
 
-/*ROUTS END*/
+.backg_right {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  bottom: 30%;
+}
+
+.backg_left {
+  position: absolute;
+  width: 30%;
+  left: 0;
+  top: 25%;
+}
+
+.team-title {
+  margin: 2%;
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  align-self: center;
+}
+
+.t_photo__img {
+  height: 90%;
+  width: auto;
+}
+
+/*Services*/
+
+.services {
+  padding: 1%;
+  background: no-repeat url(/assets/images/video/фон.png);
+  min-height: 100%;
+  background-size: 100%;
+}
+
+.s_title {
+  margin: 2%;
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  align-self: center;
+}
+
+.services_container {
+  display: flex;
+}
+
+.services_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+
+.services_column {
+  flex: 0 1 25%;
+  margin: 1%;
+  padding: 0 3%;
+}
+
+.s_item_row {
+  display: flex;
+  background-color: #ffff;
+  border-radius: 9px;
+  height: 112px;
+  margin: 0 -10%;
+}
+
+.s_img {
+  padding: 1%;
+  margin: 2%;
+}
+
+.s_item_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: left;
+  align-self: center;
+  margin: 2% 5%;
+}
+
 /*--------------------------Questions-----------------------------*/
 .feedback {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
   position: relative;
 }
@@ -739,7 +848,8 @@ main {
 
 .connect__title {
   margin: 2% auto auto 5%;
-  font-size: 1.4vw;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
 }
 
 .connect__img {
@@ -812,6 +922,7 @@ main {
 }
 
 .copyrights {
+  padding: 1%;
   align-self: center;
   text-align: center;
   font-size: 1.1em;
@@ -832,7 +943,8 @@ main {
     "copyrights copyrights";
 }
 
-/*------Adaptive -----*/
+/*---------------------------------------------------------------------------------*/
+/*-------------------------------------Adaptive -----------------------------------*/
 @media screen and (max-width: 1100px) {
   .btn-details {
     margin-bottom: 5%;
@@ -920,10 +1032,6 @@ main {
     font-size: 1.3em;
   }
 
-  .connect__title {
-    font-size: 1.1em;
-  }
-
   .connect {
     margin-top: 3%;
   }
@@ -950,7 +1058,7 @@ main {
   .footer__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto 15% 9%;
+    grid-template-rows: auto;
     grid-template-areas:
       "title map"
       "contacts map"
@@ -1086,13 +1194,14 @@ main {
     font-size: 1.3em;
   }
 
-  .connect__title {
-    font-size: 1.1em;
+  .connect__img {
+    width: 5vw;
+    height: 5vw;
   }
 
-  .connect__img {
-    width: 8vw;
-    height: 8vw;
+  .connect__title {
+    font-size: 1.1em;
+    line-height: 1em;
   }
 
   .footer-title {
@@ -1115,14 +1224,20 @@ main {
   }
 
   .social__img {
-    width: 70%;
+    width: 60%;
     margin-left: 15%;
+  }
+
+  .bottom__logo {
+    align-self: flex-start;
+    height: 70%;
+    margin-left: 0;
   }
 
   .bottom {
     margin: 0;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     grid-area: bottom;
     display: flex;
     justify-content: space-between;
@@ -1144,6 +1259,7 @@ main {
 
   .map {
     margin: 3% 0;
+    justify-self: center;
   }
 
   .footer__container {
@@ -1152,7 +1268,7 @@ main {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto 15% 9%;
+    grid-template-rows: auto auto auto auto 20% auto;
     grid-template-areas:
       "title"
       "map"
