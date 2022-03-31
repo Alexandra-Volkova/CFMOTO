@@ -419,13 +419,17 @@ body {
 
 /*Test*/
 .test {
-  display: flex;
+  min-height: 100%;
   background: no-repeat url(/assets/images/test/Mask\ Group.png);
   background-size: 100%;
-  height: 600px;
+}
+
+.test_container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 5%;
 }
 
 .test-title {
@@ -435,22 +439,27 @@ body {
   color: white;
 }
 
-.test_text {
+.test_text1 {
   font-weight: 500;
   font-size: 18px;
   line-height: 130%;
   color: white;
 }
 
-.btn-test {
-  width: 35%;
-  height: 10%;
+.test_btn {
+  margin-bottom: 8%;
+  padding: 5%;
+}
+
+.btn-test { 
   background: #037e8c;
   color: #ffffff;
   border-radius: 9px;
   border: none;
+  height: 4em;
+  width: 30%;
 }
-
+  
 /*Photo*/
 
 .Photo-title {
@@ -538,7 +547,9 @@ body {
 
 .services {
   padding: 1%;
-  background-image: url(/assets/images/video/фон.png)
+  background: no-repeat url(/assets/images/video/фон.png);
+  min-height: 100%;
+  background-size: 100%;
 }
 
 .s_title {
@@ -552,13 +563,12 @@ body {
 
 .services_container {
   display: flex;
-  height: 523px;
 }
 
 .services_row {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
 }
 
 .services_column {
@@ -573,10 +583,10 @@ body {
   border-radius: 9px;
   height: 112px;
   margin: 0 -10%;
+
 }
 
 .s_img {
-  flex: 0 0 1%;
   padding: 1%;
   margin: 2%;
 }
