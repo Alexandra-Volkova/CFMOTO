@@ -451,7 +451,7 @@ body {
   padding: 5%;
 }
 
-.btn-test { 
+.btn-test {
   background: #037e8c;
   color: #ffffff;
   border-radius: 9px;
@@ -459,7 +459,7 @@ body {
   height: 4em;
   width: 30%;
 }
-  
+
 /*Photo*/
 
 .Photo-title {
@@ -583,7 +583,6 @@ body {
   border-radius: 9px;
   height: 112px;
   margin: 0 -10%;
-
 }
 
 .s_img {
@@ -602,7 +601,7 @@ body {
 
 /*--------------------------Questions-----------------------------*/
 .feedback {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
   position: relative;
 }
