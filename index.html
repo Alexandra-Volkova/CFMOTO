@@ -25,36 +25,41 @@
 
   <body>
     <header class="header">
-      <div class="wrapper">
-        <div class="header__row">
-          <a class="header__logo"
-            ><img src="./assets/images/sasha/лого.png" alt="logo"
-          /></a>
-          <nav class="header__menu">
-            <div class="header__list">
-              <a href="#">МАРШРУТЫ</a>
-              <a href="#">ГАЛЕРЕЯ</a>
-              <a href="#">ВОПРОС-ОТВЕТ</a>
-              <a href="#">КОНТАКТЫ</a>
-              <a id="blue" href="#">ЗАБРОНИРОВАТЬ</a>
-            </div>
-          </nav>
-          <div class="header__phone">
-            <span
-              ><img src="./assets/images/sasha/phone.svg" alt="phone" />+7 928
-              333 26 45</span
+      <div class="header-container">
+        <div class="top">
+          <img class="top__logo" src="./assets/images/sasha/лого.svg" alt="logo" />
+          <nav class="navigation">
+            <a class="navigation__link" href="#">МАРШРУТЫ</a>
+            <a class="navigation__link" href="#">ГАЛЕРЕЯ</a>
+            <a class="navigation__link" href="#">ВОПРОС-ОТВЕТ</a>
+            <a class="navigation__link" href="#">КОНТАКТЫ</a>
+            <a class="navigation__link navigation__link_blue" href="#"
+              >ЗАБРОНИРОВАТЬ</a
             >
-            <button class="header__button">Перезвоните мне</button>
+          </nav>
+          <div class="right">
+            <div class="phone">
+              <img
+                class="phone__img"
+                src="./assets/images/sasha/phone.svg"
+                alt="phone"
+              />
+              <p class="right__number">+7 928 333 26 45</p>
+            </div>
+            <button class="right__button">Перезвоните мне</button>
           </div>
         </div>
-        <div class="header__title">
-          <h1>Экскурсии на квадроциклах⠀⠀⠀⠀ в Геленджике</h1>
-          <h3>приезжайте за новыми ощущениями и эмоциями!</h3>
-          <button class="header__bluebutton">
-            Подобрать маршрут
-            <img
-              class="blue"
-              src="./assets/images/sasha/стрелка.png"
+        <div class="area">
+          <h1 class="area__title">
+            Экскурсии на <br />
+            квадроциклах <br />
+            в Геленджике
+          </h1>
+          <h3 class="area__text">приезжайте за новыми ощущениями и эмоциями!</h3>
+          <button class="area-button">
+            Подобрать маршрут<img
+              class="area-button__img"
+              src="./assets/images/sasha/стрелка.svg"
               alt="strl"
             />
           </button>
@@ -298,39 +303,65 @@
       <!--------------------------------Sale section------------------------------->
 
       <div class="sale">
-        <div class="wrapper">
+        <img
+          class="sale__img sale__img_car"
+          src="/assets/images/sasha/багги 2.png"
+          alt="detail1"
+        />
+      
+        <img
+          class="sale__img sale__img_detail"
+          src="/assets/images/sasha/деталька 1.png"
+          alt="detail2"
+        />
+      
+        <div class="sale-container">
           <h2 class="sale__title">Спецпредложения</h2>
-          <div class="sale__cards">
-            <div class="card-item">
-              <img src="./assets/images/sasha/1.png" alt="left-card" />
+          <div class="cards">
+            <div class="item">
+              <img
+                class="item__img"
+                src="./assets/images/sasha/1.png"
+                alt="left-card"
+              />
             </div>
-            <div class="card-item">
-              <img src="./assets/images/sasha/2.png" alt="right-card" />
+            <div class="item">
+              <img
+                class="item__img"
+                src="./assets/images/sasha/2.png"
+                alt="right-card"
+              />
             </div>
           </div>
         </div>
       </div>
+      
 
       <!--------------------------------Sertificate section------------------------------->
 
       <div class="sertificate">
-        <div class="wrapper">
-          <div class="sertificate__title">
-            <h2>Подарочный сертификат</h2>
-            <img src=".//assets/images/sasha/заголовок.png" alt="title" />
-          </div>
-
-          <div class="sertificate__items">
-            <div class="sertificate__text">
-              <img src="./assets/images/sasha/Хотите.png" alt="text" />
-              <span
-                ><button class="sertificate__button">
-                  Подберём сертификат для Вас
-                </button></span
-              >
+        <div class="sertificate-container">
+          <h2 class="sertificate__title">Подарочный сертификат</h2>
+          <p class="sertificate__text">
+            Хотите сделать оригинальный подарок?<br />
+            Подарите незабываемые эмоции - лучший подарок!
+          </p>
+          <div class="common">
+            <div class="information">
+              <p class="information__text">
+                Хотите удивить своих близких оригинальным подарком? Подарочный
+                сертификат на экскурсию на квадроциклах станет не просто интересным
+                подарком, но и реальной возможностью приблизить Ваших друзей и близких
+                к новому увлечению.
+              </p>
+              <button class="information__button">Подберём сертификат для вас</button>
             </div>
-            <div class="sertificate__card">
-              <img src="./assets/images/sasha/сертификат.png" alt="card" />
+            <div class="card">
+              <img
+                class="card__img"
+                src="./assets/images/sasha/сертификат.png"
+                alt="card"
+              />
             </div>
           </div>
         </div>

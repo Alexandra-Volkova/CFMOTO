@@ -1,0 +1,187 @@
+.header {
+  background-image: url(../images/sasha/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  padding: 1% 5% 15%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.top__logo {
+  width: 8vw;
+}
+.navigation {
+  margin-top: 2%;
+  margin-left: 12%;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1vw;
+  font-weight: 600;
+}
+.navigation__link:hover {
+  text-decoration: underline;
+}
+
+.navigation__link_blue {
+  color: #037e8c;
+}
+.right {
+  width: 13vw;
+  margin-top: 1.5%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.phone {
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone__img {
+  width: 1.4vw;
+}
+
+.right__number {
+  margin: 0;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+.right__button {
+  padding: 0.7vw 0.2vw;
+  align-self: flex-end;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 9px;
+  border: none;
+  width: 85%;
+  font-size: 1vw;
+  font-weight: 600;
+  color: #ffffff;
+}
+.area {
+  margin-top: 6%;
+  color: #ffffff;
+}
+
+.area__title {
+  margin-top: 9%;
+  font-size: 5.5vw;
+  font-weight: 800;
+}
+
+.area__text {
+  font-size: 1.9vw;
+  font-weight: 500;
+}
+.area-button__img {
+  width: 1.9vw;
+}
+.area-button {
+  padding: 0.7vw 0.2vw;
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #037e8c;
+  border-radius: 9px;
+  border: none;
+  width: 22%;
+  font-weight: 600;
+  font-size: 1.1vw;
+  color: #ffffff;
+}
+/*------sale------*/
+.sale {
+  position: relative;
+}
+.sale__img_car {
+  width: 40%;
+  z-index: -1;
+
+  position: absolute;
+  bottom: 5%;
+}
+.sale__img_detail {
+  z-index: -1;
+  width: 40%;
+
+  position: absolute;
+  right: 0;
+  top: 25%;
+}
+
+.sale-container {
+  margin: 2% 5% 5%;
+}
+.sale__title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__img {
+  max-width: 98%;
+}
+/*----sertificate----*/
+.sertificate {
+  background-image: url(../images/sasha/Frame\ 14.png);
+}
+.sertificate-container {
+  padding: 2% 5% 5%;
+}
+.sertificate__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.sertificate__text {
+  margin-bottom: 3%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #037e8c;
+  text-align: center;
+}
+.common {
+  display: flex;
+  justify-content: space-between;
+}
+.information {
+  width: 42%;
+}
+.information__text {
+  margin-top: 5%;
+  font-size: 1.3vw;
+  line-height: 31px;
+}
+
+.card__img {
+  max-width: 100%;
+}
+.information__button {
+  margin-top: 5%;
+  background: none;
+  border-radius: 9px;
+  border: 1.5px solid #037e8c;
+  width: 52%;
+  padding: 3%;
+  font-size: 0.8vw;
+  font-weight: 600;
+  color: #037e8c;
+}
