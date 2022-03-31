@@ -820,7 +820,8 @@ body {
 
 .connect__title {
   margin: 2% auto auto 5%;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
 }
 
 .connect__img {
@@ -1001,10 +1002,6 @@ body {
 
   .social__title {
     font-size: 1.3em;
-  }
-
-  .connect__title {
-    font-size: 1.1em;
   }
 
   .connect {
