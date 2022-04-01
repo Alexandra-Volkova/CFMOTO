@@ -1,16 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/normalizer.css">
     <link rel="stylesheet" href="./assets/style/style_2.css">
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/images/sasha/фото.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <title>Document</title>
 </head>
 
 <body>
+    <section class="tour">
 
+        <div class="route">
+            <div class="route__content">
+                <div class="route__line"><img class="route__line-img" src="/assets/images/page-2/line.svg" alt="line">
+                </div>
+                <div class="route__content-text">
+                    <div class="route__title">Экскурсия “РИО” <img class="route__line--adapt"
+                            src="/assets/images/page-2/line.svg" alt="line">
+                    </div>
+                    <div class="route__details">
+                        <p class="route__time">Время в пути: <span class="route__time--bold">1,5 - 2 часа</span>
+                        </p>
+                        <p class="route__distance">Расстояние: <span class="routes__distance--bold">20 - 25
+                                км</span>
+                        </p>
+                        <p class="route__complexity">Сложность: <span class="routes__complexity--bold">5***</span>
+                        </p>
+                    </div>
+                    <div class="route__description">
+                        <p class="route__description-title">маршрут</p>
+                        <p class="route__description-text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора
+                            Нексис -
+                            -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви) -
+                            -Форсаж</p>
+                    </div>
+                    <button class="btn-scheme">Схема маршрута</button>
+                </div>
+                <div class="route__slider">
+                    <picture>
+                        <source class="route__slider-img_adapt" srcset="/assets/images/page-2/tour-slider-adapt.svg"
+                            media="(max-width: 1023px)">
+                        <source srcset="/assets/images/page-2/tour-slider.svg">
+                        <img class="route__slider-img" srcset="/assets/images/page-2/tour-slider.svg" alt="slider">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="description__container">
+                <p class="description__title">Что посмотрим на маршруте:</p>
+                <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue
+                    lacus
+                    lacus facilisis orci nibh diam. Nisi, a et sit commodo. Pretium sed consectetur risus elementum,
+                    habitasse turpis massa.</p>
+                <p class="description__text">
+                    In sit mi aenean volutpat. Quis lectus nunc nam euismod ultrices aenean. Vitae venenatis ut
+                    praesent
+                    neque sed quam mauris elementum. Risus blandit leo ut nullam egestas et porta. Ut lacus arcu
+                    sagittis sit. Gravida et faucibus id tortor augue interdum quam sit diam. Laoreet nulla at et
+                    arcu
+                    pellentesque massa placerat elit. Adipiscing in nullam ipsum est. In sit mi aenean volutpat.
+                    Quis
+                    lectus nunc nam euismod ultrices aenean. Vitae venenatis ut praesent neque sed quam mauris
+                    elementum. Risus blandit leo ut nullam egestas et porta. Ut lacus arcu sagittis sit. </p>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery__container">
+                <p class="gallery__title">Стоимость экскурсии за 1 квадроцикл:</p>
+                <div class="gallery__cards">
+                    <figure class="gallery__card card-1">
+                        <img class="gallery__card-img" src="/assets/images/page-2/p-1.svg" alt="car">
+                        <figcaption class="gallery__card-title">UFORCE 1000 EPS (U10 EPS)</figcaption>
+                        <figcaption class="gallery__card-price">4000</figcaption>
+                    </figure>
+                    <figure class="gallery__card card-2">
+                        <img class="gallery__card-img" src="/assets/images/page-2/p-2.svg" alt="car">
+                        <figcaption class="gallery__card-title">CFORCE 1000 EPS (X10 EPS)</figcaption>
+                        <figcaption class="gallery__card-price">6000</figcaption>
+                    </figure>
+                    <figure class="gallery__card card-3">
+                        <img class="gallery__card-img" src="/assets/images/page-2/p-3.svg" alt="car">
+                        <figcaption class="gallery__card-title">CFMOTO CFORCE 600 EPS</figcaption>
+                        <figcaption class="gallery__card-price">7000</figcaption>
+                    </figure>
+                    <figure class="gallery__card card-4">
+                        <img class="gallery__card-img" src="/assets/images/page-2/p-4.svg" alt="car">
+                        <figcaption class="gallery__card-title">CFORCE 400L EPS (X4 EPS)</figcaption>
+                        <figcaption class="gallery__card-price">8000</figcaption>
+                    </figure>
+                    <figure class="gallery__card card-5">
+                        <img class="gallery__card-img" src="/assets/images/page-2/p-5.svg" alt="car">
+                        <figcaption class="gallery__card-title">ZFORCE 1000</figcaption>
+                        <figcaption class="gallery__card-price">9000</figcaption>
+                    </figure>
+                    <figure class="gallery__card card-6">
+                        <img class="gallery__card-img" src="/assets/images/page-2/p-6.svg" alt="car">
+                        <figcaption class="gallery__card-title">UFORCE 1000 EPS (U10 EPS)</figcaption>
+                        <figcaption class="gallery__card-price">4000</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="reservation">
+            <div class="reservation__container">
+                <div class="reservation__title">Бронирование онлайн</div>
+                <div class="reservation__items">
+                    <div class="reservation__item">
+                        <p class="resevation__title-2">Желаемая дата</p>
+                        <button class="reservation__form date">
+                            <img class="reservation__icon-calendar" src="/assets/images/page-2/i-calendar.svg"
+                                alt="calendar">
+                            <img class="reservation__icon-arrow" src="/assets/images/page-2/i-arrow.svg"
+                                alt="arrow icon">
+                        </button>
+                    </div>
+                    <div class="reservation__item">
+                        <p class="resevation__title-2">Количество человек</p>
+                        <div class="reservation__form amount">
+                            <button class="amount__plus">+</button>
+                            <button class="amount__number">3</button>
+                            <button class="amount__minus">-</button>
+                        </div>
+                    </div>
+                    <div class="reservation__item">
+                        <p class="resevation__title-2">Телефон или WhatsApp</p>
+                        <div class="reservation__form phone">
+                            <img class="reservation__icon-phone" src="/assets/images/page-2/i-phone.svg"
+                                alt="phone icon">
+                            <input class="phone__input" type="text">
+                        </div>
+                    </div>
+                    <div class="reservation__item">
+                        <p class="resevation__title-2">Как к Вам обращаться?</p>
+                        <div class="reservation__form name">
+                            <img class="reservation__icon-name" src="/assets/images/page-2/i-name.svg" alt="name icon">
+                            <input class="name__input" type="text">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-reserve--adapt">Забронировать</button>
+            </div>
+
+        </div>
+    </section>
 </body>
 
 </html>
