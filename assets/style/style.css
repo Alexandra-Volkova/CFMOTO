@@ -42,7 +42,7 @@ body {
 .navigation__link {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1vw;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -51,7 +51,8 @@ body {
 }
 
 .right {
-  width: 13vw;
+  width: 207px;
+  height: 72px;
   margin-top: 1.5%;
   display: flex;
   flex-direction: column;
@@ -67,23 +68,24 @@ body {
 }
 
 .phone__img {
-  width: 1.4vw;
+  width: 16px;
 }
 
 .right__number {
   margin: 0;
-  font-size: 1.3vw;
+  font-size: 20px;
+  line-height: 21px;
   font-weight: 600;
 }
 
 .right__button {
-  padding: 0.7vw 0.2vw;
   align-self: flex-end;
   background: rgba(255, 255, 255, 0.4);
   border-radius: 9px;
   border: none;
-  width: 85%;
-  font-size: 1vw;
+  width: 177px;
+  height: 40px;
+  line-height: 15px;
   font-weight: 600;
   color: #ffffff;
 }
@@ -100,21 +102,18 @@ body {
 
 .area__title {
   margin-top: 9%;
-  font-size: 5.5vw;
+  font-size: 70px;
   font-weight: 800;
+  line-height: 88px;
 }
 
 .area__text {
-  font-size: 1.9vw;
+  font-size: 24px;
   font-weight: 500;
-}
-
-.area-button__img {
-  width: 1.9vw;
+  line-height: 26px;
 }
 
 .area-button {
-  padding: 0.7vw 0.2vw;
   margin-top: 6%;
   display: flex;
   justify-content: space-around;
@@ -122,12 +121,14 @@ body {
   background: #037e8c;
   border-radius: 9px;
   border: none;
-  width: 22%;
+  width: 274px;
+  height: 55px;
   font-weight: 600;
-  font-size: 1.1vw;
+  font-size: 16px;
+  line-height: 17px;
   color: #ffffff;
 }
-
+/*---sale---*/
 .sale {
   position: relative;
 }
@@ -153,9 +154,11 @@ body {
   margin: 2% 5% 5%;
 }
 
-.sale__title {
+.sale__title,
+.sertificate__title {
   text-align: center;
   font-size: 36px;
+  line-height: 47px;
   font-weight: 700;
 }
 
@@ -177,12 +180,6 @@ body {
   padding: 2% 5% 5%;
 }
 
-.sertificate__title {
-  font-size: 36px;
-  font-weight: 700;
-  text-align: center;
-}
-
 .sertificate__text {
   margin-bottom: 3%;
   font-size: 20px;
@@ -202,7 +199,7 @@ body {
 
 .information__text {
   margin-top: 5%;
-  font-size: 1.3vw;
+  font-size: 18px;
   line-height: 31px;
 }
 
@@ -215,9 +212,8 @@ body {
   background: none;
   border-radius: 9px;
   border: 1.5px solid #037e8c;
-  width: 52%;
-  padding: 3%;
-  font-size: 0.8vw;
+  width: 277px;
+  height: 45px;
   font-weight: 600;
   color: #037e8c;
 }
@@ -658,6 +654,7 @@ body {
   grid-template-areas:
     "f-title f-title"
     "questions ask";
+  gap: 2%;
 }
 
 .feedback__title {
@@ -674,13 +671,16 @@ body {
 
 .ask__title {
   font-weight: 600;
-  font-size: 1.6em;
+  font-size: 24px;
+  line-height: 29px;
 }
-
+.ask__text {
+  line-height: 17px;
+}
 .ask__button {
   margin-top: 5%;
-  width: 45%;
-  height: 15%;
+  width: 175px;
+  height: 45px;
   background-color: #037e8c;
   color: #ffffff;
   border-radius: 9px;
@@ -705,7 +705,8 @@ body {
 
 .block__label {
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 16px;
+  line-height: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -745,8 +746,9 @@ body {
 }
 
 .photo__link {
+  line-height: 23px;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 18px;
   text-decoration: none;
   color: #037e8c;
 }
@@ -798,7 +800,7 @@ body {
   display: grid;
 
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 12% 1fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
     "e-title e-title e-title e-title"
     "p-one p-two p-three p-four"
@@ -840,18 +842,19 @@ body {
 .feedback__title,
 .extra__title {
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 36px;
+  line-height: 50px;
 }
 
 .connect {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .connect__title {
-  margin: 2% auto auto 5%;
-  font-size: 1.1vw;
-  line-height: 1.5vw;
+  margin-left: 3%;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .connect__img {
@@ -888,7 +891,8 @@ body {
 }
 
 .social__title {
-  font-size: 1.6em;
+  font-size: 24px;
+  line-height: 36px;
 }
 .social__img {
   width: 3vw;
@@ -916,13 +920,13 @@ body {
 
 .nav {
   width: 67%;
-
-  font-weight: 600;
   display: flex;
   justify-content: space-between;
 }
 
 .nav__link {
+  line-height: 15px;
+  font-weight: 600;
   color: #121214;
   text-decoration: none;
 }
@@ -935,7 +939,8 @@ body {
   padding: 1%;
   align-self: center;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 16px;
+  line-height: 20px;
   color: #787878;
   grid-area: copyrights;
 }
@@ -955,9 +960,71 @@ body {
 
 /*---------------------------------------------------------------------------------*/
 /*-------------------------------------Adaptive -----------------------------------*/
-@media screen and (max-width: 1100px) {
+@media screen and (min-width: 1101px) and (max-width: 1400px) {
+  /*-----header--------*/
+
+  .navigation__link {
+    font-size: 14px;
+  }
+  .right__number {
+    font-size: 15px;
+  }
+  .phone__img {
+    width: 15px;
+  }
+  .right__button {
+    font-size: 13px;
+    width: 100%;
+  }
+  .right {
+    width: 150px;
+  }
+  /*---sertificate----*/
+
+  .information__text {
+    font-size: 15px;
+  }
+  .information__button {
+    margin-top: 4%;
+  }
+  /*--footer---*/
+  .connect__title {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
   .btn-details {
     margin-bottom: 5%;
+  }
+  /*-----header--------*/
+
+  .navigation__link {
+    font-size: 12px;
+  }
+  .right__number {
+    font-size: 14px;
+  }
+  .phone__img {
+    width: 14px;
+  }
+  .right__button {
+    font-size: 13px;
+    width: 100%;
+  }
+  .right {
+    width: 150px;
+  }
+  /*---sertificate----*/
+
+  .information__text {
+    font-size: 14px;
+  }
+  .information__button {
+    margin-top: 3%;
+  }
+  /*--footer---*/
+  .connect__title {
+    font-size: 15px;
   }
 }
 
@@ -965,7 +1032,17 @@ body {
   body {
     width: 100%;
   }
-
+  /*----header-----*/
+  .right,
+  .navigation {
+    display: none;
+  }
+  .area__title {
+    font-size: 60px;
+  }
+  .area__text {
+    font-size: 20px;
+  }
   /*----info----*/
   .basic,
   .extantion,
@@ -1005,6 +1082,27 @@ body {
     width: 100vw;
   }
 
+  /*---------sale------*/
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .item {
+    margin-bottom: 2%;
+  }
+  .sale__img_car,
+  .sale__img_detail {
+    display: none;
+  }
+
+  /*------sertificate------*/
+  .common {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .information {
+    width: 100%;
+  }
   /*----questions----*/
   .feedback__quad,
   .feedback__spring {
@@ -1013,34 +1111,30 @@ body {
 
   .feedback__container {
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas:
       "f-title"
       "questions"
       "ask";
-    gap: 2%;
   }
 
   .ask {
     padding-bottom: 10%;
     justify-self: center;
   }
-
+  /*----extra-----*/
+  .photo__link {
+    font-size: 16px;
+  }
   /*------footer----*/
 
   .connect__img {
     width: 4vw;
     height: 4vw;
   }
-
-  .connect__title {
-    font-size: 1.1em;
-    line-height: 1.1em;
-  }
-
   .nav__link,
   .copyrights {
-    font-size: 0.8em;
+    font-size: 11px;
   }
 
   .footer-title {
@@ -1101,7 +1195,29 @@ body {
   body {
     width: 100%;
   }
-
+  /*----header-----*/
+  .header-container {
+    padding: 1% 2% 15%;
+  }
+  .right,
+  .navigation {
+    display: none;
+  }
+  .area__title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+  .area__text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .area-button {
+    width: 220px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 15px;
+  }
   /*----info----*/
   .info__container {
     width: 90%;
@@ -1162,7 +1278,14 @@ body {
     display: block;
     align-self: flex-start;
   }
-
+  /*------sertificate------*/
+  .common {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .information {
+    width: 100%;
+  }
   /*----questions----*/
   .feedback__quad,
   .feedback__spring {
@@ -1170,26 +1293,39 @@ body {
   }
 
   .feedback__container {
-    margin: 0 2%;
-
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas:
       "f-title"
       "questions"
       "ask";
   }
 
-  .questions {
-    align-self: center;
+  .ask {
+    padding-bottom: 10%;
+    justify-self: center;
+  }
+  /*----questions----*/
+  .feedback__quad,
+  .feedback__spring {
+    display: none;
   }
 
+  .feedback__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "f-title"
+      "questions"
+      "ask";
+  }
   .ask {
     padding-bottom: 10%;
     justify-self: center;
   }
 
   /*----extra----*/
+
   .extra-container {
     margin: 0 2%;
     padding-bottom: 0;
@@ -1208,19 +1344,14 @@ body {
   }
 
   /*------footer----*/
-  .connect__img {
-    width: 4vw;
-    height: 4vw;
+  .connect__img,
+  .social__img {
+    width: 5vw;
+    height: 5vw;
   }
-
-  .connect__title {
-    font-size: 1.1em;
-    line-height: 1.1em;
-  }
-
   .nav__link,
   .copyrights {
-    font-size: 0.8em;
+    font-size: 11px;
   }
 
   .footer-title {
@@ -1245,10 +1376,7 @@ body {
   .social__link {
     margin-left: 1%;
   }
-  .social__img {
-    width: 4vw;
-    height: 4vw;
-  }
+
   .map {
     width: 100%;
     margin: 3% auto;
@@ -1292,6 +1420,126 @@ body {
 }
 
 @media screen and (max-width: 420px) {
+  /*----header-----*/
+  .header-container {
+    padding: 1% 2% 15%;
+  }
+  .area {
+    width: 255px;
+    margin: 10% auto 20%;
+  }
+  .area__title {
+    font-size: 33px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .area-button {
+    margin-top: 10%;
+    width: 180px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  /*----sale----*/
+  .sale-container {
+    margin: 2% 2% 5%;
+  }
+  .sale__title,
+  .sertificate__title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  /*---sertificate---*/
+  .sertificate-container {
+    padding: 2% 2% 5%;
+  }
+  .sertificate__text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .information__text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .information__button {
+    width: 270px;
+    height: 45px;
+  }
+  /*----questions----*/
+  .feedback__container {
+    margin: 0 2%;
+  }
+  .answer {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .ask__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .ask__text {
+    line-height: 14px;
+  }
+  /*--extra--*/
+  .photo__title {
+    margin-bottom: 0;
+  }
+  .photo__link {
+    line-height: 14px;
+    font-size: 17px;
+  }
+  .photo__title {
+    padding-bottom: 5%;
+  }
+  .extra-container {
+    margin-bottom: 45%;
+    margin-top: 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% repeat(8, 1fr);
+    grid-template-areas:
+      "e-title"
+      "p-one"
+      " p-two"
+      " p-three"
+      " p-four"
+      "p-five"
+      " p-six"
+      "p-seven"
+      " p-eight";
+    gap: 1%;
+  }
+  /*--footer--*/
+
+  .footer-title,
+  .feedback__title,
+  .extra__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .social__title {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .connect__img,
+  .social__img {
+    width: 9vw;
+    height: 9vw;
+  }
+  .nav__link {
+    font-size: 10px;
+  }
+  .copyrights {
+    font-size: 5px;
+  }
+  .connect__title {
+    font-size: 16px;
+  }
+  /*---*/
   .routes__title {
     font-size: 30px;
   }
@@ -1313,6 +1561,27 @@ body {
 }
 
 @media screen and (max-width: 280px) {
+  /*----header-----*/
+  .header-container {
+    padding: 1% 2% 15%;
+  }
+  .area {
+    width: 200px;
+    margin: 10% auto 20%;
+  }
+  .area__title {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+  .area-button {
+    width: 160px;
+    height: 35px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  /*---*/
+
   .routes__title {
     font-size: 25px;
   }
