@@ -446,77 +446,9 @@ body {
 
 /*ROUTS END*/
 
-/*Test*/
-.test {
-  min-height: 100%;
-  background: no-repeat url(/assets/images/test/Mask\ Group.png);
-  background-size: 100%;
-}
-
-.test_container {
-  max-width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.test-title {
-  font-weight: 700, bold;
-  font-size: 36px;
-  line-height: 130%;
-  color: white;
-}
-
-.test_text1 {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 130%;
-  color: white;
-}
-
-.test_btn {
-  margin-bottom: 8%;
-  padding: 5%;
-}
-
-.btn-test {
-  background: #037e8c;
-  color: #ffffff;
-  border-radius: 9px;
-  border: none;
-  height: 4em;
-  width: 30%;
-}
-
-/*Photo*/
-
-.Photo-title {
-  font-weight: 700, bold;
-  font-size: 36px;
-  line-height: 130%;
-  text-align: center;
-  margin: 0;
-  padding: 4%;
-}
-
-.photo_container {
-  height: 100%;
-  max-width: 100%;
-  margin-bottom: 3%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.photo_slider {
-  height: 100%;
-  width: 100%;
-}
-
 /*video*/
 
-.video_container {
+.video {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -526,39 +458,39 @@ body {
   background-size: 100%;
 }
 
-.pic_video {
+.video__pic {
   max-width: 100%;
   margin: 5%;
 }
 
-/*Team*/
+Team
 .team {
   position: relative;
   padding-top: 1%;
   padding-bottom: 0.5%;
 }
 
-.team-container {
+.team__container {
   display: flex;
   justify-content: space-around;
   height: 510px;
 }
 
-.backg_right {
+.team__backg-right {
   position: absolute;
   width: 30%;
   right: 0;
   bottom: 30%;
 }
 
-.backg_left {
+.team__backg-left {
   position: absolute;
   width: 30%;
   left: 0;
   top: 25%;
 }
 
-.team-title {
+.team__title {
   margin: 2%;
   font-weight: 700, bold;
   font-size: 36px;
@@ -567,12 +499,12 @@ body {
   align-self: center;
 }
 
-.t_photo__img {
+.team__photo-img {
   height: 90%;
   width: auto;
 }
 
-/*Services*/
+Services
 
 .services {
   padding: 1%;
@@ -581,7 +513,7 @@ body {
   background-size: 100%;
 }
 
-.s_title {
+.services__title {
   margin: 2%;
   font-weight: 700, bold;
   font-size: 36px;
@@ -590,23 +522,23 @@ body {
   align-self: center;
 }
 
-.services_container {
+.services__container {
   display: flex;
 }
 
-.services_row {
+.services__row {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 5%;
 }
 
-.services_column {
+.services__column {
   flex: 0 1 25%;
   margin: 1%;
   padding: 0 3%;
 }
 
-.s_item_row {
+.services__item-row {
   display: flex;
   background-color: #ffff;
   border-radius: 9px;
@@ -614,12 +546,12 @@ body {
   margin: 0 -10%;
 }
 
-.s_img {
+.services__img {
   padding: 1%;
   margin: 2%;
 }
 
-.s_item_text {
+.services__item-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
@@ -628,6 +560,74 @@ body {
   margin: 2% 5%;
 }
 
+
+/*Test*/
+.test {
+  height: auto;
+  max-width: 100%;
+  background: no-repeat url(/assets/images/test/Mask\ Group.png);
+  background-size: 100%;
+}
+
+.test__container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.test__title {
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 130%;
+  color: white;
+}
+
+.test__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: white;
+}
+
+.test__btn {
+  background: #037e8c;
+  color: #ffffff;
+  border-radius: 9px;
+  border: none;
+  height: 3em;
+  width: 18%;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  margin-bottom: 3%;
+}
+  
+/*Photo*/
+
+.photo__title {
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  margin: 0;
+  padding: 4%;
+}
+
+.photo__container {
+  height: 100%;
+  max-width: 100%;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo__slider {
+  height: 100%;
+  width: 100%;
+}
 /*--------------------------Questions-----------------------------*/
 .feedback {
   padding-top: 5%;
