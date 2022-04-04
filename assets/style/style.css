@@ -290,7 +290,7 @@ button {
 
 .info__title {
   font-family: "Montserrat";
-  font-weight: 600, Semi Bold;
+  font-weight: 600;
   font-size: 18px;
   color: #121214;
   line-height: 19.57px;
@@ -642,7 +642,7 @@ button {
 }
 
 .test__title {
-  font-weight: 700, bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 130%;
   color: white;
@@ -684,7 +684,7 @@ button {
 }
 
 .photo__title2 {
-  font-weight: 700, bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 130%;
   text-align: center;
