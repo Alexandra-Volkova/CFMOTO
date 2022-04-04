@@ -1341,7 +1341,7 @@ button {
   .menu__btn {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: fixed;
     top: 2%;
     right: 4%;
     width: 26px;
