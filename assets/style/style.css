@@ -804,6 +804,7 @@ button {
 }
 
 .photo {
+  padding-top: 0;
   background-color: #f4f4f4;
   border-radius: 9px;
   margin: 0;
@@ -1347,7 +1348,7 @@ button {
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 3;
   }
 
   .menu__btn > span,
@@ -1371,6 +1372,7 @@ button {
   }
 
   .shadow {
+    z-index: 2;
     display: block;
     position: fixed;
     visibility: hidden;
@@ -1485,10 +1487,6 @@ button {
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
-    transition-duration: 0.25s;
-  }
-
-  .shadow {
     transition-duration: 0.25s;
   }
 
