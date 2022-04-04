@@ -476,8 +476,7 @@ body {
   justify-content: space-around;
   grid-template-columns: 4, 1fr;
   gap: 2%;
-  grid-template-areas:
-    "t-ph t-ph t-ph t-ph";
+  grid-template-areas: "t-ph t-ph t-ph t-ph";
 }
 
 .team__backg-right {
@@ -536,16 +535,16 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10% 2%;
-  }
+}
 
 .services__card {
-display: flex;
-flex-direction: row;
-text-align: left;
-background-color: #ffff;
-border-radius: 9px;
-height: 100%;
-width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: #ffff;
+  border-radius: 9px;
+  height: 100%;
+  width: 100%;
 }
 
 .services__img {
@@ -561,7 +560,7 @@ width: 100%;
 
 /*Test*/
 .test {
-  max-height:100%;
+  max-height: 100%;
   max-width: 100%;
   background: no-repeat url(/assets/images/test/Mask\ Group.png);
   background-size: cover;
@@ -603,7 +602,7 @@ width: 100%;
   line-height: 130%;
   margin-top: 3%;
 }
-  
+
 /*Photo*/
 
 .photo {
@@ -694,6 +693,7 @@ width: 100%;
 
 .questions {
   grid-area: questions;
+  align-self: center;
 }
 
 .answer {
@@ -1132,15 +1132,14 @@ width: 100%;
   .extantion__slider-img {
     width: 100vw;
   }
-/*Team*/
-.team__container {
-margin: 0 5%;
-grid-template-columns: repeat (2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-justify-content: space-evenly;
-grid-template-areas:
-    "t-ph t-ph";
-}
+  /*Team*/
+  .team__container {
+    margin: 0 5%;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-evenly;
+    grid-template-areas: "t-ph t-ph";
+  }
 
   /*---------sale------*/
   .cards {
@@ -1265,7 +1264,7 @@ grid-template-areas:
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 2%;
     right: 4%;
     width: 26px;
@@ -1314,11 +1313,12 @@ grid-template-areas:
     margin-top: 5%;
   }
   .menu-list {
-    display: flex;
-    justify-content: space-between;
     border-bottom: 0.5px solid white;
   }
+
   .menu__item {
+    display: flex;
+    justify-content: space-between;
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
@@ -1487,14 +1487,13 @@ grid-template-areas:
   }
 
   /*Team*/
-.team__container {
-margin: 0 2%;
-grid-template-columns: repeat (2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-justify-content: space-evenly;
-grid-template-areas:
-    "t-ph t-ph";
-}
+  .team__container {
+    margin: 0 2%;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-evenly;
+    grid-template-areas: "t-ph t-ph";
+  }
   /*---sale----*/
   .cards {
     flex-direction: column;
@@ -1689,35 +1688,33 @@ grid-template-areas:
     font-size: 12px;
     line-height: 15px;
   }
-/*test*/
-.test__container {
-  padding: 3%;
-}
+  /*test*/
+  .test__container {
+    padding: 3%;
+  }
 
-.test__title {
-  font-weight: 400;
-  font-size: 33px;
-  line-height: 95%;
-  color: white;
-}
-/*photo*/
-.photo__title2 {
-  font-size: 25px;
-}
-
+  .test__title {
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 95%;
+    color: white;
+  }
+  /*photo*/
+  .photo__title2 {
+    font-size: 25px;
+  }
 
   /*Team*/
-.team__container {
-  margin: 2% 2% 5%;
-  padding: 2% 2% 20%;
-  grid-template-columns: repeat (1, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-      "t-ph";
-}
-.team__title {
-  font-size: 25px;
-}
+  .team__container {
+    margin: 2% 2% 5%;
+    padding: 2% 2% 20%;
+    grid-template-columns: repeat (1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "t-ph";
+  }
+  .team__title {
+    font-size: 25px;
+  }
 
   /*----sale----*/
   .sale-container {
@@ -1880,27 +1877,26 @@ grid-template-areas:
 
   /*test*/
   .test__container {
-  padding: 2%;
+    padding: 2%;
   }
 
-.test__title {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 40px;
-  color: white;
+  .test__title {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 40px;
+    color: white;
   }
 
   /*Team*/
-.team__container {
-  margin: 2% 2% 5%;
-  padding: 2% 2% 20%;
-  grid-template-columns: repeat (1, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-      "t-ph";
+  .team__container {
+    margin: 2% 2% 5%;
+    padding: 2% 2% 20%;
+    grid-template-columns: repeat (1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "t-ph";
   }
 
-.team__title {
-  font-size: 25px;
+  .team__title {
+    font-size: 25px;
   }
 }
