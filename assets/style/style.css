@@ -13,7 +13,7 @@ button {
   cursor: pointer;
 }
 
-/*-----------------------sasha's part------------------------------------*/
+/*----header----*/
 
 .header {
   background-image: url(../images/sasha/background.png);
@@ -154,6 +154,7 @@ button {
 /*---sale---*/
 .sale {
   position: relative;
+  overflow: hidden;
 }
 
 .sale__img_car {
@@ -477,7 +478,7 @@ button {
   width: 100%;
 }
 
-/*video*/
+/*----video----*/
 
 .video {
   max-width: 100%;
@@ -622,7 +623,7 @@ button {
   padding-bottom: 3%;
 }
 
-/*Test*/
+/*----Test----*/
 .test {
   max-height: 100%;
   max-width: 100%;
@@ -674,7 +675,7 @@ button {
   cursor: pointer;
 }
 
-/*Photo*/
+/*----Photo----*/
 
 .photo {
   max-height: 100%;
@@ -700,7 +701,7 @@ button {
   min-width: 100%;
 }
 
-/*--------------------------Questions-----------------------------*/
+/*----Questions----*/
 .feedback {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -712,6 +713,7 @@ button {
   position: absolute;
   right: 0;
   bottom: 7%;
+  z-index: -1;
 }
 
 .feedback__spring {
@@ -813,7 +815,7 @@ button {
   padding-top: 2%;
 }
 
-/*---------------------------Extra--------------------------------*/
+/*----Extra----*/
 .extra__title {
   margin: 0;
   grid-area: e-title;
@@ -896,7 +898,7 @@ button {
   row-gap: 3%;
 }
 
-/*---------------------------Footer-------------------------------*/
+/*----Footer----*/
 
 .adress {
   grid-area: adress;
@@ -1053,7 +1055,7 @@ button {
 /*---------------------------------------------------------------------------------*/
 /*-------------------------------------Adaptive -----------------------------------*/
 @media screen and (min-width: 1101px) and (max-width: 1400px) {
-  /*-----header--------*/
+  /*----header----*/
 
   .top__logo {
     width: 90px;
@@ -1081,7 +1083,7 @@ button {
     width: 150px;
   }
 
-  /*---sertificate----*/
+  /*----sertificate----*/
 
   .information__text {
     font-size: 15px;
@@ -1091,7 +1093,7 @@ button {
     margin-top: 4%;
   }
 
-  /*--footer---*/
+  /*----footer----*/
   .connect__title {
     font-size: 16px;
   }
@@ -1112,7 +1114,7 @@ button {
     margin-bottom: 5%;
   }
 
-  /*-----header--------*/
+  /*----header----*/
 
   .top__logo {
     width: 80px;
@@ -1143,7 +1145,7 @@ button {
     width: 150px;
   }
 
-  /*---sertificate----*/
+  /*----sertificate----*/
 
   .information__text {
     font-size: 14px;
@@ -1153,7 +1155,7 @@ button {
     margin-top: 3%;
   }
 
-  /*--footer---*/
+  /*----footer----*/
   .connect__title {
     font-size: 15px;
   }
@@ -1179,7 +1181,7 @@ button {
     width: 100%;
   }
 
-  /*----header-----*/
+  /*----header----*/
 
   .navigation__link {
     font-size: 10px;
@@ -1265,7 +1267,7 @@ button {
     gap: 10% 2%;
   }
 
-  /*---------sale------*/
+  /*----sale----*/
   .cards {
     flex-direction: column;
     align-items: center;
@@ -1280,7 +1282,7 @@ button {
     display: none;
   }
 
-  /*------sertificate------*/
+  /*----sertificate----*/
   .common {
     flex-direction: column-reverse;
     align-items: center;
@@ -1310,12 +1312,12 @@ button {
     justify-self: center;
   }
 
-  /*----extra-----*/
+  /*----extra----*/
   .photo__link {
     font-size: 16px;
   }
 
-  /*------footer----*/
+  /*----footer----*/
 
   .connect__img {
     width: 40px;
@@ -1390,7 +1392,7 @@ button {
     width: 100%;
   }
 
-  /*----header-----*/
+  /*----header----*/
   .hamburger-menu {
     display: block;
   }
@@ -1557,7 +1559,6 @@ button {
     transition-duration: 0.25s;
   }
 
-  /*----*/
   .top__logo {
     width: 60px;
   }
@@ -1654,7 +1655,7 @@ button {
     padding: 50px 0;
   }
 
-  /*----Team----*/
+  /*----team----*/
   .team__container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "ph1 ph2"
@@ -1686,7 +1687,7 @@ button {
   }
 
 
-  /*---sale----*/
+  /*----sale----*/
   .cards {
     flex-direction: column;
     align-items: center;
@@ -1701,7 +1702,7 @@ button {
     display: none;
   }
 
-  /*------sertificate------*/
+  /*----sertificate----*/
   .common {
     flex-direction: column-reverse;
     align-items: center;
@@ -1770,7 +1771,7 @@ button {
     row-gap: 3%;
   }
 
-  /*------footer----*/
+  /*----footer----*/
   .connect__img {
     width: 40px;
     height: 40px;
@@ -1894,7 +1895,7 @@ button {
     line-height: 15px;
   }
 
-  /*test*/
+  /*----test----*/
   .test__container {
     padding: 3%;
   }
@@ -1906,12 +1907,12 @@ button {
     color: white;
   }
 
-  /*photo*/
+  /*----photo----*/
   .photo__title2 {
     font-size: 25px;
   }
 
-  /*Team*/
+  /*----team----*/
   .team__container {
     margin: 0 2%;
     padding-bottom: 50px;
@@ -1921,7 +1922,7 @@ button {
     font-size: 25px;
   }
 
-  /*servises*/
+  /*----servises----*/
   .services__container {
     margin: 0 2%;
     margin-bottom: 20%;
@@ -1946,7 +1947,7 @@ button {
     flex-direction: column;
   }
 
-  /*---sertificate---*/
+  /*----sertificate----*/
   .sertificate-container {
     padding: 2% 2% 5%;
   }
@@ -1985,7 +1986,7 @@ button {
     line-height: 14px;
   }
 
-  /*--extra--*/
+  /*----extra----*/
 
   .photo__link {
     line-height: 14px;
@@ -2010,7 +2011,7 @@ button {
     gap: 1%;
   }
 
-  /*--footer--*/
+  /*----footer----*/
 
   .footer-title,
   .feedback__title,
@@ -2077,7 +2078,7 @@ button {
 
 @media screen and (max-width: 280px) {
 
-  /*----header-----*/
+  /*----header----*/
   .header-container {
     padding: 1% 2% 15%;
   }
@@ -2121,7 +2122,7 @@ button {
     font-weight: lighter;
   }
 
-  /*test*/
+  /*----test----*/
   .test__container {
     padding: 2%;
   }
@@ -2133,7 +2134,7 @@ button {
     color: white;
   }
 
-  /*Team*/
+  /*----team----*/
   .team__title {
     font-size: 25px;
   }
