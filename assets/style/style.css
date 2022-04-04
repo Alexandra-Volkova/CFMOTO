@@ -13,8 +13,6 @@ button {
   cursor: pointer;
 }
 
-/*----header----*/
-
 .header {
   background-image: url(../images/sasha/background.png);
   background-repeat: no-repeat;
@@ -56,7 +54,7 @@ button {
 
 .navigation__link:hover {
   color: #037e8c;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .right {
@@ -91,7 +89,7 @@ button {
 
 .right__number:hover {
   color: #037e8c;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .right__button {
@@ -109,7 +107,7 @@ button {
 .right__button:hover {
   background-color: #ffffff;
   color: #037e8c;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .area {
@@ -148,10 +146,9 @@ button {
 
 .area-button:hover {
   background: #02636e;
-  transition: .6s;
+  transition: 0.6s;
 }
 
-/*---sale---*/
 .sale {
   position: relative;
   overflow: hidden;
@@ -195,7 +192,6 @@ button {
   max-width: 98%;
 }
 
-/*----sertificate----*/
 .sertificate {
   background-image: url(../images/sasha/Frame\ 14.png);
 }
@@ -242,7 +238,6 @@ button {
   color: #037e8c;
 }
 
-/*----info----*/
 .info {
   margin: 0 5%;
   padding: 30px 0 30px;
@@ -300,7 +295,6 @@ button {
   margin: 0;
 }
 
-/*----routes----*/
 .routes {
   background: #f4f4f4;
 }
@@ -387,9 +381,9 @@ button {
   text-transform: uppercase;
 }
 
-.routes__time>span,
-.routes__distance>span,
-.routes__complexity>span {
+.routes__time > span,
+.routes__distance > span,
+.routes__complexity > span {
   font-weight: bold;
   font-size: 14px;
   line-height: 17.39px;
@@ -478,8 +472,6 @@ button {
   width: 100%;
 }
 
-/*----video----*/
-
 .video {
   max-width: 100%;
   max-height: 100%;
@@ -496,7 +488,6 @@ button {
   text-align: center;
 }
 
-/*----team----*/
 .team {
   position: relative;
 }
@@ -519,7 +510,7 @@ button {
 }
 
 .team__item {
-  background: #F4F4F4;
+  background: #f4f4f4;
   border-radius: 9px;
   margin: 0;
 }
@@ -538,7 +529,7 @@ button {
 .team__item-name {
   font-weight: 700;
   font-size: 20px;
-  color: #037E8C;
+  color: #037e8c;
   margin: 0;
   padding-bottom: 2%;
 }
@@ -578,8 +569,6 @@ button {
   top: 30%;
   z-index: -1;
 }
-
-/*----services----*/
 
 .services {
   background: no-repeat url(/assets/images/video/фон.png);
@@ -622,8 +611,6 @@ button {
   line-height: 150%;
   padding-bottom: 3%;
 }
-
-/*----Test----*/
 .test {
   max-height: 100%;
   max-width: 100%;
@@ -674,9 +661,6 @@ button {
   transition: 1s;
   cursor: pointer;
 }
-
-/*----Photo----*/
-
 .photo {
   max-height: 100%;
   max-width: 100%;
@@ -700,12 +684,11 @@ button {
   max-height: 100%;
   min-width: 100%;
 }
-
-/*----Questions----*/
 .feedback {
   padding-top: 5%;
   padding-bottom: 5%;
   position: relative;
+  overflow: hidden;
 }
 
 .feedback__quad {
@@ -770,7 +753,7 @@ button {
 
 .ask__button:hover {
   background-color: #055e68;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .questions {
@@ -806,7 +789,7 @@ button {
   display: none;
 }
 
-.block__hide+.block__label~.answer {
+.block__hide + .block__label ~ .answer {
   display: none;
 }
 
@@ -814,8 +797,6 @@ button {
   display: block;
   padding-top: 2%;
 }
-
-/*----Extra----*/
 .extra__title {
   margin: 0;
   grid-area: e-title;
@@ -898,8 +879,6 @@ button {
   row-gap: 3%;
 }
 
-/*----Footer----*/
-
 .adress {
   grid-area: adress;
 }
@@ -958,7 +937,7 @@ button {
 
 .connect__title_link:hover {
   color: #037e8c;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .map {
@@ -1026,7 +1005,7 @@ button {
 
 .nav__link:hover {
   color: #037e8c;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .copyrights {
@@ -1051,12 +1030,7 @@ button {
     "bottom bottom"
     "copyrights copyrights";
 }
-
-/*---------------------------------------------------------------------------------*/
-/*-------------------------------------Adaptive -----------------------------------*/
 @media screen and (min-width: 1101px) and (max-width: 1400px) {
-  /*----header----*/
-
   .top__logo {
     width: 90px;
   }
@@ -1082,9 +1056,6 @@ button {
     margin-top: 1.5%;
     width: 150px;
   }
-
-  /*----sertificate----*/
-
   .information__text {
     font-size: 15px;
   }
@@ -1092,8 +1063,6 @@ button {
   .information__button {
     margin-top: 4%;
   }
-
-  /*----footer----*/
   .connect__title {
     font-size: 16px;
   }
@@ -1113,9 +1082,6 @@ button {
   .btn-details {
     margin-bottom: 5%;
   }
-
-  /*----header----*/
-
   .top__logo {
     width: 80px;
   }
@@ -1144,9 +1110,6 @@ button {
   .right {
     width: 150px;
   }
-
-  /*----sertificate----*/
-
   .information__text {
     font-size: 14px;
   }
@@ -1154,8 +1117,6 @@ button {
   .information__button {
     margin-top: 3%;
   }
-
-  /*----footer----*/
   .connect__title {
     font-size: 15px;
   }
@@ -1169,8 +1130,6 @@ button {
     width: 36px;
     height: 36px;
   }
-
-  /*----routes----*/
   .btn-details {
     margin-bottom: 5%;
   }
@@ -1180,9 +1139,6 @@ button {
   body {
     width: 100%;
   }
-
-  /*----header----*/
-
   .navigation__link {
     font-size: 10px;
   }
@@ -1216,8 +1172,6 @@ button {
   .area__text {
     font-size: 20px;
   }
-
-  /*----info----*/
   .basic,
   .extantion,
   .experience {
@@ -1229,8 +1183,6 @@ button {
   .swiper-container {
     height: 90%;
   }
-
-  /*----routs----*/
   .basic,
   .experience {
     display: grid;
@@ -1258,16 +1210,12 @@ button {
   .extantion__slider-img {
     width: 100vw;
   }
-
-  /*----servises----*/
   .servises__items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 10% 2%;
   }
-
-  /*----sale----*/
   .cards {
     flex-direction: column;
     align-items: center;
@@ -1281,8 +1229,6 @@ button {
   .sale__img_detail {
     display: none;
   }
-
-  /*----sertificate----*/
   .common {
     flex-direction: column-reverse;
     align-items: center;
@@ -1291,8 +1237,6 @@ button {
   .information {
     width: 100%;
   }
-
-  /*----questions----*/
   .feedback__quad,
   .feedback__spring {
     display: none;
@@ -1311,14 +1255,9 @@ button {
     padding-bottom: 10%;
     justify-self: center;
   }
-
-  /*----extra----*/
   .photo__link {
     font-size: 16px;
   }
-
-  /*----footer----*/
-
   .connect__img {
     width: 40px;
     height: 40px;
@@ -1391,8 +1330,6 @@ button {
   body {
     width: 100%;
   }
-
-  /*----header----*/
   .hamburger-menu {
     display: block;
   }
@@ -1413,9 +1350,9 @@ button {
     z-index: 1;
   }
 
-  .menu__btn>span,
-  .menu__btn>span::before,
-  .menu__btn>span::after {
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -1423,12 +1360,12 @@ button {
     background-color: #ffffff;
   }
 
-  .menu__btn>span::before {
+  .menu__btn > span::before {
     content: "";
     top: -8px;
   }
 
-  .menu__btn>span::after {
+  .menu__btn > span::after {
     content: "";
     top: 8px;
   }
@@ -1526,28 +1463,28 @@ button {
     color: #037e8c;
   }
 
-  #menu__toggle:checked~.menu__btn>span {
+  #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
 
-  #menu__toggle:checked~.menu__btn>span::before {
+  #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
 
-  #menu__toggle:checked~.menu__btn>span::after {
+  #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
 
-  #menu__toggle:checked~.shadow {
+  #menu__toggle:checked ~ .shadow {
     visibility: visible;
     left: 0;
   }
 
-  .menu__btn>span,
-  .menu__btn>span::before,
-  .menu__btn>span::after {
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
     transition-duration: 0.25s;
   }
 
@@ -1589,9 +1526,6 @@ button {
     font-size: 14px;
     line-height: 15px;
   }
-
-  /*----info----*/
-
   .info {
     margin: 0 2%;
   }
@@ -1604,8 +1538,6 @@ button {
   .info__title {
     font-size: 1.1em;
   }
-
-  /*----routes----*/
   .routes__title {
     padding: 10%;
   }
@@ -1654,11 +1586,10 @@ button {
   .extantion__slider {
     padding: 50px 0;
   }
-
-  /*----team----*/
   .team__container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "ph1 ph2"
+    grid-template-areas:
+      "ph1 ph2"
       "ph3 ph4";
     column-gap: 4%;
   }
@@ -1674,8 +1605,6 @@ button {
   .team__backg-left {
     display: none;
   }
-
-  /*----servises----*/
   .servises__items {
     display: grid;
     grid-template-columns: 100%;
@@ -1685,9 +1614,6 @@ button {
   .services__title {
     padding-bottom: 1%;
   }
-
-
-  /*----sale----*/
   .cards {
     flex-direction: column;
     align-items: center;
@@ -1701,8 +1627,6 @@ button {
   .sale__img_detail {
     display: none;
   }
-
-  /*----sertificate----*/
   .common {
     flex-direction: column-reverse;
     align-items: center;
@@ -1711,8 +1635,6 @@ button {
   .information {
     width: 100%;
   }
-
-  /*----questions----*/
   .feedback__quad,
   .feedback__spring {
     display: none;
@@ -1731,29 +1653,6 @@ button {
     padding-bottom: 10%;
     justify-self: center;
   }
-
-  /*----questions----*/
-  .feedback__quad,
-  .feedback__spring {
-    display: none;
-  }
-
-  .feedback__container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "f-title"
-      "questions"
-      "ask";
-  }
-
-  .ask {
-    padding-bottom: 10%;
-    justify-self: center;
-  }
-
-  /*----extra----*/
-
   .extra-container {
     margin: 0 2%;
     padding-bottom: 0;
@@ -1770,8 +1669,6 @@ button {
     column-gap: 2%;
     row-gap: 3%;
   }
-
-  /*----footer----*/
   .connect__img {
     width: 40px;
     height: 40px;
@@ -1856,8 +1753,6 @@ button {
 }
 
 @media screen and (max-width: 420px) {
-  /*----header-----*/
-
   .shadow-logo {
     width: 50px;
   }
@@ -1895,7 +1790,6 @@ button {
     line-height: 15px;
   }
 
-  /*----test----*/
   .test__container {
     padding: 3%;
   }
@@ -1907,12 +1801,10 @@ button {
     color: white;
   }
 
-  /*----photo----*/
   .photo__title2 {
     font-size: 25px;
   }
 
-  /*----team----*/
   .team__container {
     margin: 0 2%;
     padding-bottom: 50px;
@@ -1922,7 +1814,6 @@ button {
     font-size: 25px;
   }
 
-  /*----servises----*/
   .services__container {
     margin: 0 2%;
     margin-bottom: 20%;
@@ -1932,7 +1823,6 @@ button {
     font-size: 24px;
   }
 
-  /*----sale----*/
   .sale-container {
     margin: 2% 2% 5%;
   }
@@ -1947,7 +1837,6 @@ button {
     flex-direction: column;
   }
 
-  /*----sertificate----*/
   .sertificate-container {
     padding: 2% 2% 5%;
   }
@@ -1967,7 +1856,6 @@ button {
     height: 45px;
   }
 
-  /*----questions----*/
   .feedback__container {
     margin: 0 2%;
   }
@@ -1985,8 +1873,6 @@ button {
   .ask__text {
     line-height: 14px;
   }
-
-  /*----extra----*/
 
   .photo__link {
     line-height: 14px;
@@ -2010,8 +1896,6 @@ button {
       " p-eight";
     gap: 1%;
   }
-
-  /*----footer----*/
 
   .footer-title,
   .feedback__title,
@@ -2048,7 +1932,6 @@ button {
     font-size: 16px;
   }
 
-  /*----routes----*/
   .routes__title {
     font-size: 30px;
   }
@@ -2073,12 +1956,9 @@ button {
     height: 45px;
     font-weight: lighter;
   }
-
 }
 
 @media screen and (max-width: 280px) {
-
-  /*----header----*/
   .header-container {
     padding: 1% 2% 15%;
   }
@@ -2101,8 +1981,6 @@ button {
     line-height: 13px;
   }
 
-  /*----routes----*/
-
   .routes__title {
     font-size: 25px;
   }
@@ -2122,7 +2000,6 @@ button {
     font-weight: lighter;
   }
 
-  /*----test----*/
   .test__container {
     padding: 2%;
   }
@@ -2134,7 +2011,6 @@ button {
     color: white;
   }
 
-  /*----team----*/
   .team__title {
     font-size: 25px;
   }
